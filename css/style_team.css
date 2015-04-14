@@ -1,0 +1,204 @@
+* {
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-weight: 300;
+  /*list-style: none;*/
+  text-decoration: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  transition: all 0.1s ease-out;
+}
+
+html {
+  background-color: #f4f6f7;
+}
+
+nav ul {
+  /*Make the whole nav element stick to the right-side of the page*/
+  float: right;
+}
+
+  nav ul li {
+    /*Make the list items stay horizontal*/
+    float: left;
+    text-align: right;
+    /*Give each nav list item a bit of padding on the right*/
+    padding-right: 60px;
+  }
+    
+    nav ul li:last-of-type {
+      /*Except the last one*/
+      padding-right: 0;
+    }
+
+    nav ul li a {
+      color: white;
+    }
+
+header {
+  /*Give the header a nice bottom border*/
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding-bottom: 30px;
+}
+
+  header img {
+    width: 100px;
+  }
+
+iframe {
+  /*And a bit of space after the header, before the video/intro copy*/
+  margin: 60px 0 20px;
+}
+
+#top h1 {
+    font-size: 32pt;
+    width: 70%;
+    max-width: 900px;
+    margin: 40px auto 0;
+  }
+
+#top {
+  /*Background color*/
+  background-color: #222a2d;
+  background-image: url(../img/wave-bg-01.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  /*Universal text preferences*/
+  color: white;
+  /*Bit of breathing-space on the top and bottom*/
+  padding: 30px 0 60px;
+  /*General rules*/
+  text-align: center;
+}
+
+.content {
+  /*Bulleted areas multiple backgrounds*/
+  /*https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_multiple_backgrounds*/
+/*  background: url(../img/wave-01.png), url(../img/wave-02.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top right, bottom left;*/
+  /*background-size: 40%;*/
+  padding: 60px 0;
+  height: 1000px;
+}
+
+.content section {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+  /*border-bottom: 1px solid rgba(0, 0, 0, 0.1);*/
+}
+
+.content h2 {
+  /*The headings for bulleted areas*/
+  font-size: 24pt;
+  color: #222a2d;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+
+/*The person's name & title */
+.content h3,
+.content h4,
+.content a {
+  text-align: center;
+}
+
+.content h3 {
+  font-size: 24pt;
+}
+
+.content h4 {
+  font-size: 14pt;
+  margin-bottom: 20px;
+}
+
+.content p {
+  margin: 20px 0 20px;
+  text-align: left;
+}
+
+.content li {
+  text-align: left;
+}
+
+.content p,
+.content li {
+  line-height: 18pt;
+}
+
+.bio {
+  width: 150px;
+  border-radius: 150px;
+  margin: 0 auto 20px;
+}
+
+  section a {
+    margin: 0 auto;
+    text-align: center;
+    padding: 6px 24px;
+    background-color: rgba(0,0,0, 0.5);
+    color: white;
+    border-radius: 100px;
+    font-size: 10pt;
+    /*font-weight: 700;*/
+  }
+
+    section a:hover {
+      padding: 6px 30px;
+    }
+
+
+footer {
+  background-color: #222a2d;
+  /*background-image: url(../img/wave-bg-01.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;*/
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  padding: 60px 0 40px;
+}
+
+  
+  footer .grid {
+    text-align: left;
+    
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 30px;
+  }
+
+    footer #logotype {
+      width: 180px;
+      margin-bottom: 14pt;
+    }
+
+    footer .col-1-3:nth-child(2) {
+      line-height: 24pt;
+    }
+
+    footer .col-1-3:nth-child(3) {
+      line-height: 18pt;
+    }
+
+  /*The symbol*/
+  footer #symbol {
+    padding: 40px 0;
+    width: 60px;
+  }
+
+  footer h6 { 
+    font-size: 10pt;
+    /*margin-top: 20px;*/
+    /*padding-top: 20px;*/
+  }
+
+
+
+
+
+
+
+

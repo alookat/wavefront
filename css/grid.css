@@ -20,7 +20,7 @@
 }
 
 [class*='col-'] {
-  padding-right: 20px;
+  padding-right: 60px;
 }
 /*Except the last one*/
 [class*='col-']:last-of-type {

@@ -54,7 +54,7 @@ iframe {
 		font-size: 32pt;
 		width: 70%;
 		max-width: 900px;
-		margin: 0 auto 60px;
+		margin: 20px auto 40px;
 	}
 
 #top {
@@ -75,16 +75,16 @@ iframe {
 .content {
 	/*Bulleted areas multiple backgrounds*/
 	/*https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_multiple_backgrounds*/
-	background:	url(../img/wave-01.png);
-	background-repeat: no-repeat;
-	background-position: top right;
+	background:	url(../img/wave-01.png), url(../img/wave-02.png);
+	background-repeat: no-repeat, no-repeat;
+	background-position: top right, bottom left;
 	/*background-size: 40%;*/
 	padding: 100px 0 0;
 }
 
 .content section {
 	max-width: 960px;
-	margin: 0 auto 80px;
+	margin: 0 auto;
 	padding-bottom: 60px;
 	/*border-bottom: 1px solid rgba(0, 0, 0, 0.1);*/
 }
@@ -99,6 +99,7 @@ iframe {
 
 
 #section2 {
+	margin-top: 60px;
 	text-align: right;
 }
 
