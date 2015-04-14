@@ -32,3 +32,25 @@ nav ul {
 			/*Except the last one*/
 			padding-right: 0;
 		}
+
+		nav ul li a {
+			color: white;
+		}
+
+header {
+	/*Give the header a nice bottom border*/
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#top {
+	/*Background image*/
+	background: url(../img/video.jpg) no-repeat center center; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	/*Universal text preferences*/
+  	color: white;
+  	/*Bit of breathing-space on the top and bottom*/
+  	padding: 60px 0;
+}

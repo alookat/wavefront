@@ -43,3 +43,14 @@
 .col-11-12 {
 	width: 91.6666666%;
 }
+
+/* Last but not least, give a nice fixed width to the page --------------------- */
+.grid {
+  max-width: 1200px;
+  /*In-case we're below 1000px*/
+  width: 95%;
+  /*Centered*/
+  margin: 0 auto;
+}
+
+
