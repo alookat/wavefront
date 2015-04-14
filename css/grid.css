@@ -56,7 +56,7 @@
 .grid {
   max-width: 1200px;
   /*In-case we're below 1000px*/
-  width: 92%;
+  width: 90%;
   /*Centered*/
   margin: 0 auto;
 }
