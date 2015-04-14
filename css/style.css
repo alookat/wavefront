@@ -29,7 +29,7 @@ html {
 #logo {
 	width: 20%;
 	opacity: 0.9;
-	display: inline;
+	/*display: inline;*/
 }
 
 #logo img {
@@ -38,26 +38,25 @@ html {
 }
 
 nav {
-	width: 80%;
-	float: right;
-	/*display: block;*/
+	/*width: 80%;
+	float: right;*/
 	
 }
 
 nav ul {
 	/*width: 100%;*/
-	float: right;
+	/*float: right;*/
 	/*margin: 0 0 3em 0;*/
-	padding: 0;
+	/*padding: 0;*/
 	list-style: none;
 }
 
 nav ul li {
-	float: right;
+	/*float: right;*/
 }
 
 nav ul li a {
-	display: block;
+	/*display: block;*/
 	padding: 0 40px;
 	text-decoration: none;
 	/*font-weight: bold;*/
@@ -75,7 +74,7 @@ nav ul li a {
 }
 
 #copy {
-	width: 70%;
+	/*width: 70%;*/
 	/*display: block;*/
 	text-align: center;
 	margin: 0 auto;
@@ -109,8 +108,8 @@ h2 {
 	font-size: 36pt;
 }
 
-#point2 {
-	text-align: right;
+.point {
+	text-align: center;
 }
 
 	.point ul {
