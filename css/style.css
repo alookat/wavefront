@@ -6,6 +6,7 @@
 	/*text-align: center;*/
 	margin: 0;
 	padding: 0;
+	transition: all 0.1s ease-out;
 }
 
 html {
@@ -50,7 +51,8 @@ iframe {
 }
 
 #top h1 {
-		max-width: 720px;
+		width: 70%;
+		max-width: 900px;
 		margin: 0 auto;
 	}
 
@@ -74,16 +76,16 @@ iframe {
 	/*https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_multiple_backgrounds*/
 	background:	url(../img/wave-01.png);
 	background-repeat: no-repeat;
-	background-position: 180% 110%;
+	background-position: top right;
 	/*background-size: 40%;*/
 	padding: 100px 0 0;
-	
 }
 
 .content section {
 	max-width: 960px;
-	margin: 0 auto 120px;
-	border-bottom: 1px solid black;
+	margin: 0 auto 80px;
+	padding-bottom: 60px;
+	/*border-bottom: 1px solid rgba(0, 0, 0, 0.1);*/
 }
 
 .content h2 {
@@ -100,20 +102,52 @@ iframe {
 	margin-bottom: 20px;
 }
 
-#section1 {
-
-}
-
 #section2 {
 	text-align: right;
 }
 
-#section2 ul li{
+#section2 ul li {
 	float: right;
 }
 
+	#section2:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
 
 
+#byline {
+
+	background-color: #667e86;
+	background-image: url(../img/wave-bg-01.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	padding: 100px 0;
+}
+
+	#byline p {
+		width: 70%;
+		max-width: 900px;
+		margin: 0 auto 60px;
+		font-size: 24pt;
+	}
+
+	#byline a {
+		padding: 20px 60px;
+		background-color: white;
+		color: #667e86;
+		border-radius: 100px;
+		font-size: 16pt;
+		font-weight: 700;
+	}
+
+		#byline a:hover {
+			padding: 20px 70px;
+		}
 
 
 
