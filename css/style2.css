@@ -42,6 +42,11 @@ header {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+#top h1 {
+		max-width: 720px;
+		margin: 0 auto;
+	}
+
 #top {
 	/*Background image*/
 	background: url(../img/video.jpg) no-repeat center center; 
@@ -54,3 +59,32 @@ header {
   	/*Bit of breathing-space on the top and bottom*/
   	padding: 60px 0;
 }
+
+.content {
+	/*Bulleted areas multiple backgrounds*/
+	/*https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_multiple_backgrounds*/
+	background:	url(../img/symbol-white.png), url(../img/symbol-white.png);
+	background-repeat: no-repeat, no-repeat;
+	background-position: 10px 10px, top right;
+
+}
+
+.content h2 {
+	/*The headings for bulleted areas*/
+	font-size: 36pt;
+	margin: 120px 0 15px;
+	color: #222a2d;
+}
+
+.content ul li {
+	font-size: 18pt;
+	color: #6f797d;
+	max-width: 640px;
+	margin: 0 auto 25px;
+}
+
+
+
+
+
+
