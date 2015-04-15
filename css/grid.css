@@ -20,6 +20,16 @@
 }
 
 [class*='col-'] {
+  padding: 0 20px;
+}
+[class*='col-']:first-of-type {
+  padding: 0 40px 0 0;
+}
+[class*='col-']:last-of-type {
+  padding: 0 0 0 40px;
+}
+
+/*[class*='col-'] {
   padding: 0 15px;
 }
 [class*='col-']:first-of-type {
@@ -27,7 +37,7 @@
 }
 [class*='col-']:last-of-type {
   padding: 0 0 0 30px;
-}
+}*/
 
 /* Defined column widths --------------------- */
 .col-2-3 {
@@ -67,10 +77,25 @@
 
 
 @media screen and (max-width: 700px) {
+  .grid {
+    width: 80%;
+  }
   [class*='col-'] {
     width: 100%;
     float: left;
+    padding: 0 0 0 0;
+    margin: 0 auto;
   }
+
+  [class*='col-'] {
+  padding: 0;
+}
+[class*='col-']:first-of-type {
+  padding: 0;
+}
+[class*='col-']:last-of-type {
+  padding: 0;
+}
 
 
 

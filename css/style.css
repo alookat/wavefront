@@ -40,8 +40,15 @@ nav ul {
 		}
 
 		nav ul li a {
-			color: white;
+			color: rgba(255, 255, 255, 0.8);
+			padding-bottom: 4pt;
 		}
+
+			nav ul li a:hover {
+				color: rgba(255, 255, 255, 1);
+				/*text-decoration: underline;*/
+				border-bottom: 2px solid white;
+			}
 
 header {
 	/*Give the header a nice bottom border*/
@@ -87,7 +94,6 @@ footer {
 	background-size: cover;*/
 	color: rgba(255, 255, 255, 0.5);
 	padding: 60px 0 40px;
-
 }
 
 	
@@ -141,6 +147,14 @@ footer {
   	display: block;
   	float: right;
   }
+
+  footer [class*='col-'] {
+  	margin-bottom: 36pt;
+
+  }
+
+
+
 }
 
 
