@@ -1,0 +1,67 @@
+/*https://css-tricks.com/dont-overthink-it-grids/*/
+
+/* Columns that stay next to each other --------------------- */
+[class*='col-'] {
+  float: left;
+}
+
+/* Fix the pesky zero-height thing --------------------- */
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Fixed-width gutters --------------------- */
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+[class*='col-'] {
+  padding-right: 60px;
+}
+/*Except the last one*/
+[class*='col-']:last-of-type {
+  padding-right: 0;
+}
+
+
+/* Defined column widths --------------------- */
+.col-2-3 {
+  width: 66.66%;
+}
+.col-1-3 {
+  width: 33.33%;
+}
+
+.col-1-12 {
+	width: 8.33333333%;
+}
+
+.col-2-12 {
+  width: 16.6666667%;
+}
+
+.col-10-12 {
+  width: 83.3333333%;
+}
+
+.col-11-12 {
+	width: 91.6666666%;
+}
+
+/* Last but not least, give a nice fixed width to the page --------------------- */
+.grid {
+  max-width: 1200px;
+  /*In-case we're below 1000px*/
+  width: 90%;
+  /*Centered*/
+  margin: 0 auto;
+}
+
+.module {
+  background-color: grey;
+  height: 100px;
+}
