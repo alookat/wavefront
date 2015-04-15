@@ -16,6 +16,8 @@ ul {
 	list-style: circle outside none;
 }
 
+.selectnav { display: none; }
+
 /* Header (the whole top area) -------------------------------------- */
 
 /*Navigation*/
@@ -131,8 +133,15 @@ footer {
 
 
 
+/* media queries —————————————————————————————————————————————————————— */
 
-
+@media screen and (max-width: 760px) {
+  .js #nav { display: none; }
+  .js .selectnav { 
+  	display: block;
+  	float: right;
+  }
+}
 
 
 
