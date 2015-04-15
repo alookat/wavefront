@@ -43,122 +43,11 @@ header {
 
 	header img {
 		width: 100px;
+		float: left;
 	}
 
-iframe {
-	/*And a bit of space after the header, before the video/intro copy*/
-	margin: 60px 0 20px;
-}
-
-#top h1 {
-		font-size: 32pt;
-		width: 70%;
-		max-width: 900px;
-		margin: 20px auto 40px;
-	}
-
-#top {
-	/*Background image*/
-	background: url(../img/video.jpg) no-repeat center center; 
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-  	/*Universal text preferences*/
-  	color: white;
-  	/*Bit of breathing-space on the top and bottom*/
-  	padding: 30px 0 60px;
-  	/*General rules*/
-  	text-align: center;
-}
-
-.content {
-	/*Bulleted areas multiple backgrounds*/
-	/*https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_multiple_backgrounds*/
-	background:	url(../img/wave-01.png), url(../img/wave-02.png);
-	background-repeat: no-repeat, no-repeat;
-	background-position: top right, bottom left;
-	/*background-size: 40%;*/
-	padding: 100px 0 0;
-}
-
-.content section {
-	max-width: 960px;
-	margin: 0 auto;
-	padding-bottom: 60px;
-	/*border-bottom: 1px solid rgba(0, 0, 0, 0.1);*/
-}
-
-.content h2 {
-	/*The headings for bulleted areas*/
-	font-size: 36pt;
-	color: #222a2d;
-	margin-bottom: 20px;
-}
 
 
-
-#section2 {
-	margin-top: 60px;
-	text-align: right;
-}
-
-#section2 ul li {
-	float: right;
-}
-
-	#section2:after {
-	  content: "";
-	  display: table;
-	  clear: both;
-	}
-
-#section3 {
-	text-align: center;
-	/*margin: 0 auto;*/
-}
-#section3 ul li {
-	margin: 0 auto 20px;
-}
-
-.content ul li {
-	font-size: 18pt;
-	color: #6f797d;
-	max-width: 640px;
-	margin-bottom: 20px;
-}
-
-
-#byline {
-	background-color: #667e86;
-	background-image: url(../img/wave-bg-01.png);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	color: white;
-	text-align: center;
-	padding: 100px 0;
-}
-
-	#byline p {
-		width: 70%;
-		max-width: 900px;
-		margin: 0 auto 60px;
-		font-size: 24pt;
-	}
-
-	#byline a {
-		padding: 20px 60px;
-		background-color: white;
-		color: #667e86;
-		border-radius: 100px;
-		font-size: 16pt;
-		/*font-weight: 700;*/
-	}
-
-		#byline a:hover {
-			padding: 20px 70px;
-		}
 
 
 footer {
@@ -203,6 +92,10 @@ footer {
 		font-size: 10pt;
 		/*margin-top: 20px;*/
 		/*padding-top: 20px;*/
+	}
+
+	footer #copyright {
+		text-align: center;
 	}
 
 

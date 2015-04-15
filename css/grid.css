@@ -20,13 +20,14 @@
 }
 
 [class*='col-'] {
-  padding-right: 60px;
+  padding: 0 15px;
 }
-/*Except the last one*/
+[class*='col-']:first-of-type {
+  padding: 0 30px 0 0;
+}
 [class*='col-']:last-of-type {
-  padding-right: 0;
+  padding: 0 0 0 30px;
 }
-
 
 /* Defined column widths --------------------- */
 .col-2-3 {
