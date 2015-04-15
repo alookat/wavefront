@@ -1,62 +1,3 @@
-nav ul {
-  /*Make the whole nav element stick to the right-side of the page*/
-  float: right;
-}
-
-  nav ul li {
-    /*Make the list items stay horizontal*/
-    float: left;
-    text-align: right;
-    /*Give each nav list item a bit of padding on the right*/
-    padding-right: 60px;
-  }
-    
-    nav ul li:last-of-type {
-      /*Except the last one*/
-      padding-right: 0;
-    }
-
-    nav ul li a {
-      color: white;
-    }
-
-header {
-  /*Give the header a nice bottom border*/
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  padding-bottom: 30px;
-}
-
-  header img {
-    width: 100px;
-  }
-
-iframe {
-  /*And a bit of space after the header, before the video/intro copy*/
-  margin: 60px 0 20px;
-}
-
-#top h1 {
-    font-size: 32pt;
-    width: 70%;
-    max-width: 900px;
-    margin: 40px auto 0;
-  }
-
-#top {
-  /*Background color*/
-  background-color: #222a2d;
-  background-image: url(../img/wave-bg-01.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  /*Universal text preferences*/
-  color: white;
-  /*Bit of breathing-space on the top and bottom*/
-  padding: 30px 0 60px;
-  /*General rules*/
-  text-align: center;
-}
-
 .content {
   /*Bulleted areas multiple backgrounds*/
   /*https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_multiple_backgrounds*/
@@ -66,6 +7,7 @@ iframe {
   /*background-size: 40%;*/
   padding: 60px 0;
   height: 1000px;
+  text-align: center;
 }
 
 .content section {
@@ -122,7 +64,6 @@ iframe {
 }
 
   section a {
-    /*margin: 0 auto; */
     padding: 6px 24px;
     background-color: rgba(0,0,0, 0.5);
     color: white;
