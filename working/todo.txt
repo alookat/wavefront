@@ -1,5 +1,6 @@
 To do:
 
+-	Change contact form email address to info@wavefrontbiometric.com
 -	Team page: turn two sections into one for better responsive resizing, make alpha & omega classes in the grid.css or something to make padding right
 -	Favicon
 -	Apple touch icon
