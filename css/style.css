@@ -205,13 +205,13 @@ section ul {
 
  .linklist {
  	list-style: none;
- 	
+ 	padding: 0; 	
  }
 
  	.linklist li {
  	padding: 12pt;
  	/*margin: 6pt;*/
- 	border-bottom: 1px solid rgba(0,0,0, 0.25);;
+ 	border-bottom: 1px solid rgba(0,0,0, 0.25);
  	/*background-color: red;*/
  	}
 
@@ -232,10 +232,29 @@ section ul {
 
   footer [class*='col-'] {
   	margin-bottom: 36pt;
-
   }
 
+   .linklist {
+ 	list-style: none;
+ 	padding: 0;
+ 	
+ }
 
+ 	.linklist li {
+ 	padding: 12pt;
+ 	/*margin: 6pt;*/
+ 	border-bottom: 1px solid rgba(0,0,0, 0.25);
+ 	/*background-color: red;*/
+ 	}
+
+ 		.linklist li:hover {
+ 			background-color: rgba(0,0,0, 0.1);
+ 			padding-left: 24pt;
+ 		}
+
+ 	.content section {
+ 		margin-bottom: 12pt;
+ 	}
 
 }
 

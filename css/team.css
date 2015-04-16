@@ -13,3 +13,14 @@
 	margin: 0 auto 20px;
 	background-color: rgba(0,0,0, 0.25);
 }
+
+
+/* media queries —————————————————————————————————————————————————————— */
+
+@media screen and (max-width: 760px) {
+
+ 	.content section {
+ 		margin-bottom: 72pt;
+ 	}
+
+}
