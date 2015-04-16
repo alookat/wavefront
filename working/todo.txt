@@ -1,0 +1,7 @@
+To do:
+
+-	Favicon
+-	Apple touch icon
+-	Choose frame for video cover image
+-	Tidy up CSS across pages (merge where possible)
+-	Add links to investor page (Nemex website, ASX link, etc)

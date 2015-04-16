@@ -137,6 +137,88 @@ footer {
 		list-style: none;
 	}
 
+/* page content —————————————————————————————————————————————————————— */
+
+.content {
+  padding: 60px 0;
+}
+
+.content section {
+  max-width: 960px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  /*border-bottom: 1px solid rgba(0, 0, 0, 0.1);*/
+}
+
+.content h2 {
+  /*The headings for bulleted areas*/
+  font-size: 24pt;
+  color: #222a2d;
+}
+
+.center {
+	text-align: center;
+}
+
+
+.content h3 {
+  font-size: 24pt;
+}
+
+.content h4 {
+  font-size: 14pt;
+  margin-bottom: 20px;
+}
+
+.content p {
+  margin: 20px 0 20px;
+  text-align: left;
+}
+
+.content li {
+  text-align: left;
+}
+
+.content p,
+.content li {
+  line-height: 18pt;
+}
+
+/*Spacing between sections*/
+section ul {
+  /*margin-bottom: 60px;*/
+  padding-left: 12pt;
+}
+
+  .pill {
+    padding: 6px 24px;
+    background-color: rgba(0,0,0, 0.5);
+    color: white;
+    border-radius: 100px;
+    font-size: 10pt;
+    /*font-weight: 700;*/
+  }
+
+    .pill:hover {
+      padding: 6px 30px;
+    }
+
+ .linklist {
+ 	list-style: none;
+ 	
+ }
+
+ 	.linklist li {
+ 	padding: 12pt;
+ 	/*margin: 6pt;*/
+ 	border-bottom: 1px solid rgba(0,0,0, 0.25);;
+ 	/*background-color: red;*/
+ 	}
+
+ 		.linklist li:hover {
+ 			background-color: rgba(0,0,0, 0.1);
+ 			padding-left: 24pt;
+ 		}
 
 
 /* media queries —————————————————————————————————————————————————————— */
