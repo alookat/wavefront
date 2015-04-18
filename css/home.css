@@ -10,6 +10,13 @@ iframe {
 	margin: 60px 0 20px;
 }
 
+#video-preview {
+	max-width: 480px;
+	/*And a bit of space after the header, before the video/intro copy*/
+	margin: 60px 0 20px;
+	border-radius: 5px;
+
+}
 
 
 #top {
