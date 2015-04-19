@@ -20,6 +20,10 @@ iframe {
 	#video-preview {
 		max-width: 480px;
 		border-radius: 5px;
+		/*border: 1px solid rgba(255,255,255,0.33);*/
+		-webkit-box-shadow: 0px 0px 9px 3px rgba(0,0,0,0.15);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  		-moz-box-shadow:    0px 0px 9px 3px rgba(0,0,0,0.15);  /* Firefox 3.5 - 3.6 */
+  		box-shadow:         0px 0px 9px 3px rgba(0,0,0,0.15);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 	}
 
 		/*The play button*/
@@ -33,7 +37,7 @@ iframe {
 		  z-index: 1;
 		  background: url(../img/video-button.png) no-repeat center center;
 		  background-size: 80px;
-		  opacity: 0.75;
+		  opacity: 0.66;
 		}
 
 #top {
@@ -77,6 +81,14 @@ iframe {
 	margin-bottom: 20px;
 }
 
+section ul {
+	padding: 0;
+}
+
+	.content ul li {
+		line-height: 24pt;
+		padding-bottom: 12pt;
+	}
 
 
 #section2 {
@@ -86,6 +98,7 @@ iframe {
 
 #section2 ul li {
 	float: right;
+	text-align: right;
 }
 
 	#section2:after {
@@ -94,7 +107,8 @@ iframe {
 	  clear: both;
 	}
 
-#section3 {
+#section3,
+#section3 ul li {
 	text-align: center;
 	/*margin: 0 auto;*/
 }
@@ -113,7 +127,7 @@ iframe {
 
 #byline {
 	background-color: #667e86;
-	background-image: url(../img/wave-bg-01.png);
+	background-image: url(../img/wave-bg-02.png);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
