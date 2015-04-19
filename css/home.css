@@ -2,7 +2,7 @@
 		font-size: 32pt;
 		width: 70%;
 		max-width: 900px;
-		margin: 20px auto 40px;
+		margin: 40px auto;
 	}
 
 iframe {
@@ -10,14 +10,31 @@ iframe {
 	margin: 60px 0 20px;
 }
 
-#video-preview {
-	max-width: 480px;
+/*The video preview container*/
+.videobox { 
+	position: relative;
 	/*And a bit of space after the header, before the video/intro copy*/
 	margin: 60px 0 20px;
-	border-radius: 5px;
-
 }
 
+	#video-preview {
+		max-width: 480px;
+		border-radius: 5px;
+	}
+
+		/*The play button*/
+		.videobox span {
+		  display: block;
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  bottom: 0;
+		  right: 0;
+		  z-index: 1;
+		  background: url(../img/video-button.png) no-repeat center center;
+		  background-size: 80px;
+		  opacity: 0.75;
+		}
 
 #top {
 	/*Background image*/

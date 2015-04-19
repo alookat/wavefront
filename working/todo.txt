@@ -4,7 +4,12 @@ To do:
 -	Team page: turn two sections into one for better responsive resizing, make alpha & omega classes in the grid.css or something to make padding right
 -	Favicon
 -	Apple touch icon
--	Choose frame for video cover image
 -	Tidy up CSS across pages (merge where possible)
 -	Change up header background image on every page
 -	Add links to investor page (Nemex website, ASX link, etc)
+
+
+
+
+Done:
+-	Choose frame for video cover image
