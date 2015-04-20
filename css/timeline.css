@@ -4,11 +4,11 @@
 }
 
 .list-picker {
-/*	border-top: 1px solid #6F797D;
-	border-bottom: 1px solid #6F797D;*/
-	padding: 12pt 0;
+	border: 1px solid rgba(0,0,0, 0.1);
+	border-radius: 5px;
+	padding: 12pt 0 16pt;
 	margin: 0 auto 48pt;
-	float: left;	
+	float: left;
 }
 
 /*Annotation*/

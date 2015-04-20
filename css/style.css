@@ -16,6 +16,16 @@ ul {
 	list-style: circle outside none;
 }
 
+a {
+	color: #6F797D;
+	border-bottom: 1px solid #6F797D;
+	padding-bottom: 2pt;
+}
+
+a:hover {
+	color: #222a2d;
+}
+
 .selectnav { display: none; }
 
 /* Header (the whole top area) -------------------------------------- */
@@ -41,7 +51,7 @@ nav ul {
 
 		nav ul li a {
 			color: rgba(255, 255, 255, 0.8);
-			/*padding-bottom: 4pt;*/
+			border-bottom: none;
 		}
 
 			nav ul li a:hover {
@@ -161,13 +171,13 @@ footer {
 	/*margin: 0rem 0.625rem;*/
 }
 
-	#sitemap li:after {
+	/*#sitemap li:after {
 		content: ".";
 		color: white;
 		position: absolute;
 		right: 2pt;
 		top: -0.5rem;
-	}
+	}*/
 
 #sitemap a {
 	color: white;
