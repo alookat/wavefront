@@ -177,7 +177,7 @@ footer {
 
 /* page content —————————————————————————————————————————————————————— */
 
-a[href$='.pdf'] {
+/*a[href$='.pdf'] {
 	background: url(../img/pdf.png) center left no-repeat;
 	background-color: tomato;
     padding: 10pt 24pt;
@@ -185,7 +185,7 @@ a[href$='.pdf'] {
 	background-color: tomato;
 	float: right;
 	display: block;
-}
+}*/
 
 .content {
   padding: 60px 0;

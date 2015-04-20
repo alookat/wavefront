@@ -92,8 +92,10 @@
 .col-12-12,
 .col-4-4,
 .col-3-3,
-.col-1-1 {
+.col-1-1,
+.full {
   width: 100%;
+  /*padding: 0 0 0 0;*/
 }
 
 
