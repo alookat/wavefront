@@ -162,7 +162,7 @@ footer {
 }
 
 	#sitemap li:after {
-		content: ".";
+		/*content: ".";*/
 		color: white;
 		position: absolute;
 		right: 2pt;

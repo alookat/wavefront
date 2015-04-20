@@ -58,12 +58,11 @@ iframe {
 .content {
 	/*Bulleted areas multiple backgrounds*/
 	/*https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_multiple_backgrounds*/
-	background:	url(../img/wave-01.png), url(../img/wave-02.png);
-	background-repeat: no-repeat, no-repeat;
-	background-position: top right, bottom left;
+	background:	url(../img/wave-bg-04.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
 	/*background-size: 40%;*/
-	padding: 100px 0 0;
-
+	padding: 56pt 0 0;
 }
 
 .content section {
@@ -78,7 +77,14 @@ iframe {
 	/*The headings for bulleted areas*/
 	font-size: 36pt;
 	color: #222a2d;
-	margin-bottom: 20px;
+	/*margin-bottom: 6pt;*/
+}
+
+/*Override rules for content p in style.css*/
+.content p {
+	margin: 0 auto;
+	text-align: center;
+	margin: 6pt 0 20px;
 }
 
 section ul {
@@ -90,21 +96,37 @@ section ul {
 		padding-bottom: 12pt;
 	}
 
-
+#section1,
 #section2 {
-	margin-top: 60px;
-	text-align: right;
+	text-align: center;
+	max-width: 800px;
+	margin: 0 auto;
+	padding-bottom: 400px;
+}
+
+#section1 p {
+	text-align: center;
+	max-width: 690px;
+	margin: 0 auto;
+	font-size: 14pt;
+	line-height: 21pt;
+	color: #6f797d;
+	/*max-width: 700px;*/
+}
+#section2 {
+	/*margin-top: 60px;*/
+	/*text-align: right;*/
 }
 
 #section2 ul li {
-	float: right;
-	text-align: right;
+	/*float: right;*/
+	/*text-align: right;*/
 }
 
 	#section2:after {
-	  content: "";
+	  /*content: "";
 	  display: table;
-	  clear: both;
+	  clear: both;*/
 	}
 
 #section3,
@@ -127,28 +149,33 @@ section ul {
 
 #byline {
 	background-color: #667e86;
-	background-image: url(../img/wave-bg-02.png);
+	background-image: url(../img/shanny.jpg);
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: top left;
 	background-size: cover;
 	color: white;
 	text-align: center;
-	padding: 100px 0;
+	padding: 120px 0;
 }
 
+	#byline section {
+		width: 40%;
+		/*margin: 0 100px 60px auto;*/
+		margin: auto 100px auto auto;
+	}
+
 	#byline p {
-		width: 70%;
-		max-width: 900px;
-		margin: 0 auto 60px;
-		font-size: 24pt;
+		font-size: 16pt;
+		line-height: 21pt;
+		margin-bottom: 48pt;
 	}
 
 	#byline a {
 		padding: 20px 60px;
 		background-color: white;
-		color: #667e86;
+		color: black;
 		border-radius: 100px;
-		font-size: 16pt;
+		font-size: 14pt;
 		/*font-weight: 700;*/
 	}
 
