@@ -1,0 +1,72 @@
+/*For anything that's not full-page width, but not a news article*/
+.middle {
+	max-width: 800px;
+}
+
+.list-picker {
+	border: 1px solid rgba(0,0,0, 0.1);
+	border-radius: 5px;
+	padding: 12pt 0 16pt;
+	margin: 0 auto 48pt;
+	float: left;
+}
+
+/*Annotation*/
+.list-picker p {
+	font-size: 10pt;
+	font-style: italic;
+	/*padding: 0;*/
+	margin: 0 0 8pt;
+	text-align: center;
+}
+
+.list-picker li {
+	float: left;
+
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0 auto;
+	width: 20%;
+	text-align: center;
+}
+
+	.list-picker li:last-of-type {
+		padding: 0;
+	}
+
+
+
+/*Timeline year headers*/
+.content h3 {
+	width: 100%;
+	text-align: left;
+	/*Full-width dividing line*/
+	border-bottom: 1px solid #6F797D;
+	/*Space around that line*/
+	margin-bottom: 24pt;
+	padding-bottom: 12pt;
+	/*Space between years*/
+	margin-top: 64pt;
+}
+
+	/*Space between years, except for the first one*/
+	.content h3:first-of-type {
+		margin-top: auto;
+	}
+
+
+.content ul {
+	list-style: circle outside;
+	list-style-image: url('../img/timeline.png');
+	/*Add margin to push the list-style back inside*/
+	margin-left: 80pt;
+}
+
+	.content ul li {
+		margin-bottom: 24pt;
+	}
+
+	/*A bigger dash for the more important timeline events*/
+	.bigdeal {
+		list-style-image: url('../img/timeline-big.png');
+	}
