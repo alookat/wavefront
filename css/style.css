@@ -171,8 +171,13 @@ footer {
 	/*margin: 0rem 0.625rem;*/
 }
 
+<<<<<<< HEAD
 	/*#sitemap li:after {
 		content: ".";
+=======
+	#sitemap li:after {
+		/*content: ".";*/
+>>>>>>> centered-home
 		color: white;
 		position: absolute;
 		right: 2pt;
