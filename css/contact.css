@@ -1,5 +1,44 @@
-form {
-	margin-top: 12pt;
+/*Get rid of bottom padding*/
+.content {
+	padding-bottom: 0;
+}
+
+section:first-of-type {
+	/*padding-bottom: 24pt;*/
+	max-width: 800px;
+}
+
+/*Center the top copy*/
+h2, h4 {
+	text-align: center;
+}
+
+h2 {
+	margin-bottom: 10pt;
+}
+
+h4 {
+	color: #6F797D;
+}
+
+/*Get rid of round bullets*/
+section ul {
+	padding-left: 0;
+	list-style: none;
+}
+
+	section ul li {
+		margin-bottom: 6pt;
+	}
+
+/*Add a bit of space after the in-grid headers*/
+section h3 {
+	margin-bottom: 12pt;
+}
+
+/*Add some spacing for the map*/
+iframe {
+	margin-top: 24pt;
 }
 
 	input, textarea {
@@ -12,6 +51,54 @@ form {
 	/*background-color: #;*/
 }
 
-textarea {
+	input[type="text"]:focus, textarea:focus {
+		background-color: #f4f6f7;
+	}
 
+textarea {
+	height: 172pt;
 }
+
+.submit-button {
+	width: 33.333333%;
+	float: right;
+	background-color: #222a2d;
+	border: none;
+	color: white;
+	padding: 12pt;
+}
+
+	.submit-button:hover {
+		background-color: #6F797D;
+	}
+
+
+/* media queries —————————————————————————————————————————————————————— */
+
+@media screen and (max-width: 760px) {
+  .submit-button {
+  	width: 100%;
+  	margin-bottom: 24pt;
+  }
+
+  /*Padding between sections*/
+  iframe {
+  	/*margin-bottom: 48pt;*/
+  }
+
+  /*Re-add some bottom padding*/
+	.content {
+		/*padding-bottom: 24pt;*/
+	}
+
+	.content section {
+ 		margin-bottom: 60pt;
+ 	}
+}
+
+
+
+
+
+
+

@@ -1,11 +1,11 @@
 <?php
 
-$EmailFrom = "#";
+$EmailFrom = "info@wavefrontbiometric.com";
 $EmailTo = "white.daniel.james@gmail.com";
 $Subject = "Thanks for contacting Wavefront";
-$Name = Trim(stripslashes($_POST['Name'])); 
-$Tel = Trim(stripslashes($_POST['Tel'])); 
+$Name = Trim(stripslashes($_POST['Name']));  
 $Email = Trim(stripslashes($_POST['Email'])); 
+$Website = Trim(stripslashes($_POST['Website']));
 $Message = Trim(stripslashes($_POST['Message'])); 
 
 // validation
@@ -20,11 +20,11 @@ $Body = "";
 $Body .= "Name: ";
 $Body .= $Name;
 $Body .= "\n";
-$Body .= "Tel: ";
-$Body .= $Tel;
-$Body .= "\n";
 $Body .= "Email: ";
 $Body .= $Email;
+$Body .= "\n";
+$Body .= "Website: ";
+$Body .= $Website;
 $Body .= "\n";
 $Body .= "Message: ";
 $Body .= $Message;

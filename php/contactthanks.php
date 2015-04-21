@@ -8,6 +8,33 @@
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/contact.css">
+
+	<!-- Light-weight styling for button etc -->
+	<style type="text/css">
+		section {
+			text-align: center;
+			/*margin: 0 auto;*/
+		}
+
+		/*Based on the byline a*/
+		.dark-a {
+			padding: 20px 60px;
+			background-color: #6F797D;
+			color: white;
+			border-radius: 100px;
+			font-size: 14pt;
+		}
+
+			.dark-a:hover {
+				padding: 20px 70px;
+				color: white;
+			}
+
+		/*Make a bit of room for the a*/
+		h4 {
+			padding-bottom: 48pt;
+		}
+	</style>
 	
 	<!-- turn on media queries -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"> 
@@ -43,43 +70,11 @@
 	<div class="content">
 		<div class="grid">
 			<section>
-				<h2>Your feedback is important to Wavefront</h2>
-				<h4>Whether you have a question on using Wavefront to identify your users, you want to incorporate it into your product, or you have new ideas for us &mdash; we're always glad to discuss.</h4>
-				<h4>Please email us or fill out the contact form below and we'll be sure to respond</h4>
+				<h2>Thank you</h2>
+				<h4>Your message has been sent. We'll  be in touch.</h4>
+
+				<a class="dark-a" href="index.html">Back to Wavefront</a>
 			</section>
-
-			<section class="col-1-3">
-				<h3>Our office</h3>
-				<ul>
-					<li>A Suite 704 140 Arthur St</li>
-					<li>North Sydney NSW 2060</li>
-					<li>AUSTRALIA</li>
-					<li><a href="mailto:info@wavefrontbiometric.com">info@wavefrontbiometric.com</a></li>
-					<li>Shanny Dyer &mdash; Chairperson</li>
-				</ul>
-
-				<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3313.9935489140744!2d151.209855!3d-33.838277!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12aef2a9f0cedf%3A0xc93e1fea509b117d!2s704%2F140-142+Arthur+St%2C+North+Sydney+NSW+2060%2C+Australia!5e0!3m2!1sen!2sus!4v1429631891023" width="100%" height="40%" frameborder="0" style="border:0"></iframe>
-			</section>
-
-			<section class="col-2-3">
-				<h3>Contact form</h3>
-				<form method="post" action="php/contactengine.php">
-					<label for="Name">Name</label>
-					<input type="text" required name="Name" id="Name" placeholder="Firstname Lastname" required />
-		
-					<label for="Email">Email</label>
-					<input type="text" required name="Email" id="Email" placeholder="email@example.com" />
-
-					<label for="Website">Website</label>
-					<input type="text" name="Website" id="Website" placeholder="example.com (optional)" />
-					
-					<label for="Message">Message</label>
-					<textarea name="Message" rows="20" cols="20" id="Message" placeholder="Your message to Wavefront Biometric here"></textarea>
-
-					<input type="submit" name="submit" value="Submit" class="submit-button" />
-				</form>
-			</section>
-
 		</div>		
 	</div>
 
@@ -111,9 +106,18 @@
 			<h6>Copyright &copy; 2015 by Wavefront Biometric Technologies Pty Ltd. All Rights Reserved.</h6>
 		</div>
 	</footer>
+
+	<!-- Contact form stuff -->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-68528-29";
+	urchinTracker();
+	</script>
 	
 </body>
 <script src="js/respond.js"></script>
 <script src="js/selectnav.min.js"></script>
 <script>selectnav('nav'); </script>
+
 </html>
