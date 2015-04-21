@@ -9,10 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/home.css">
 
-	<!-- <link rel="stylesheet" href="src/css/swipebox.css"> -->
-
-	<!-- <link rel="stylesheet" type="text/css" href="plugins/shadowbox/shadowbox.css"> -->
-	
+	<link rel="stylesheet" href="plugins/swipebox/src/css/swipebox.css">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"> <!-- turns on media queries -->
 </head>
@@ -40,11 +37,10 @@
 			<!-- <iframe src="https://player.vimeo.com/video/124510802?color=ffffff&title=0&byline=0&portrait=0" width="480" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
 
 			<div class="videobox">	
-				<a href="https://player.vimeo.com/video/124510802?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1" rel="shadowbox">
+				<a class="swipebox-video" href="http://vimeo.com/124510802">
 				<img id="video-preview" src="img/video-preview.jpg" alt="Wavefront Introduction Video">
 				<span></span>
 				</a>
-
 			</div>
 
 			<h1>The revolutionary foundation for seamlessly and safely capturing multi-modal, natural, one time PINs using the human eye</h1>
@@ -150,34 +146,31 @@
 	<script src="js/selectnav.min.js"></script>
 	<script>selectnav('nav'); </script>
 
-	<script src="lib/ios-orientationchange-fix.js"></script>
-	<script src="lib/jquery-2.1.0.min.js"></script>
-	<!-- <script src="src/js/jquery.swipebox.js"></script>
+	<script src="plugins/swipebox/lib/ios-orientationchange-fix.js"></script>
+	<script src="plugins/swipebox/lib/jquery-2.1.0.min.js"></script>
+	<script src="plugins/swipebox/src/js/jquery.swipebox.js"></script>
+
 	<script type="text/javascript">
 		$( document ).ready(function() {
 
-				/* Basic Gallery */
-				$( '.swipebox' ).swipebox();
-				
-				/* Video */
-				$( '.swipebox-video' ).swipebox();
+			/* Basic Gallery */
+			$( '.swipebox' ).swipebox();
+			
+			/* Video */
+			$( '.swipebox-video' ).swipebox();
 
-				// /* Dynamic Gallery */
-				// $( '#gallery' ).click( function( e ) {
-				// 	e.preventDefault();
-				// 	$.swipebox( [
-				// 		{ href : 'http://swipebox.csag.co/mages/image-1.jpg', title : 'My Caption' },
-				// 		{ href : 'http://swipebox.csag.co/images/image-2.jpg', title : 'My Second Caption' }
-				// 	] );
-				// } );
+			/* Dynamic Gallery */
+			$( '#gallery' ).click( function( e ) {
+				e.preventDefault();
+				$.swipebox( [
+					{ href : 'http://swipebox.csag.co/mages/image-1.jpg', title : 'My Caption' },
+					{ href : 'http://swipebox.csag.co/images/image-2.jpg', title : 'My Second Caption' }
+				] );
+			} );
 
-	      });
-	</script> -->
-
-	<script type="text/javascript" src="plugins/shadowbox/shadowbox.js"></script>
-	<script type="text/javascript">
-		Shadowbox.init();
+      });
 	</script>
+
 
 </body>
 
