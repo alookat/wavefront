@@ -235,7 +235,6 @@ section ul {
 
 
 #byline {
-	background-color: #667e86;
 	background-image: url(../img/shanny.jpg);
 	background-repeat: no-repeat;
 	background-position: top left;
@@ -285,6 +284,41 @@ footer {
 		font-size: 21pt;
 		width: 70%;
 		margin: 20px auto 40px;
+	}
+
+	#byline {
+		background-color: #222a2d;
+		background-image: url(../img/wave-bg-02.png);
+  		background-size: 200%;
+  		background-position: center center;
+	}
+
+		#byline section {
+			width: 90%;
+			margin: 0 auto;
+		}
+
+	#university ul li {
+		width: 100%;
+		margin: 2% auto;
+	}
+
+	#section2 ul {
+	background-color: white;
+	border-radius: 5px;
+	margin: 12pt auto	;
+	/*padding: 18pt 0;*/
+	border: 2px solid rgba(0,0,0, 0.05);
+	width: 100%;
+	max-width: 100%;
+}
+
+	#section2 ul li {
+		font-size: 14pt;
+		width: 95%;
+		margin: 24pt auto;
+		padding-bottom: 24pt;
+		border-bottom: 1px solid rgba(0,0,0, 0.1);
 	}
 }
 
