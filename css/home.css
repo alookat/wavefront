@@ -60,26 +60,6 @@ iframe {
   	text-align: center;
 }
 
-.content {
-	/*Bulleted areas multiple backgrounds*/
-	/*https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_multiple_backgrounds*/
-	background:	url(../img/wave-bg-04.png);
-	background-repeat: no-repeat;
-	background-position: bottom center;
-	/*background-size: 40%;*/
-	padding: 56pt 0 0;
-}
-
-.content:nth-child(2) {
-	/*Bulleted areas multiple backgrounds*/
-	/*https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_multiple_backgrounds*/
-	background:	url(../img/intro-img.png), url(../img/wave-bg-04.png);
-	background-repeat: no-repeat;
-	background-position: bottom center, bottom center;
-	background-size: 75%, 150%;
-	padding: 56pt 0 0;
-}
-
 .content section {
 	max-width: 960px;
 	margin: 0 auto;
@@ -116,8 +96,17 @@ section ul {
 	text-align: center;
 	max-width: 800px;
 	margin: 0 auto;
+}
+
+#section1 {
 	padding-bottom: 400px;
 }
+
+#section2 {
+	padding-bottom: 72pt;
+}
+
+
 
 #section1 p {
 	text-align: center;
@@ -143,21 +132,33 @@ section ul {
 			color: white;
 		}
 
+#section2 h2 {
+	margin-bottom: 24pt;
+}
 
-#section2 {
-	/*margin-top: 60px;*/
-	/*text-align: right;*/
+#section2 ul {
+	background-color: white;
+	border-radius: 5px;
+	margin: 12pt auto 48pt;
+	padding: 18pt 0;
+	border: 2px solid rgba(0,0,0, 0.05);
+	max-width: 90%;
 }
 
 #section2 ul li {
 	/*float: right;*/
-	/*text-align: right;*/
+	text-align: center;
+	font-size: 14pt;
+	max-width: 70%;
+	margin: 24pt auto;
+	padding-bottom: 24pt;
+	border-bottom: 1px solid rgba(0,0,0, 0.1);
 }
 
-	#section2:after {
-	  /*content: "";
-	  display: table;
-	  clear: both;*/
+	#section2 ul li:last-of-type {
+		padding-bottom: 0;
+		/*margin-bottom: 12pt;*/
+		border-bottom: 0;
 	}
 
 #section3,
@@ -176,6 +177,50 @@ section ul {
 	margin-bottom: 20px;
 	list-style: none;
 }
+
+#problem {
+	/*Bulleted areas multiple backgrounds*/
+	/*https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_multiple_backgrounds*/
+	background:	url(../img/intro-img.png), url(../img/wave-bg-04.png);
+	background-repeat: no-repeat;
+	background-position: bottom center, bottom center;
+	background-size: 75%, 150%;
+	padding: 56pt 0 0;
+}
+
+#patent {
+	background:	url(../img/patentlight.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 106%;
+}
+
+#university {
+	background-color: #222a2d;
+}
+
+	#university h2,
+	#university ul li {
+		color: white;
+	}
+
+	#university ul li {
+		text-align: left;
+		border: 1px solid #6f797d;
+		border-radius: 5px;
+		padding: -308px -20px 0 0;
+		margin: 2%;
+
+		width: 46%;
+		float: left;
+	}
+
+		#university ul li:before {
+			content: url(../img/tick.png);
+			position: relative;
+			left: -18pt;
+			top: 40px;
+		}
 
 
 #byline {
@@ -212,6 +257,15 @@ section ul {
 		#byline a:hover {
 			padding: 20px 70px;
 		}
+
+footer {
+	background-color: #f4f6f7;
+	color: #6f797d;
+}
+
+	footer .grid {
+		border-bottom: 1px solid rgba(0,0,0, 0.1);
+	}
 
 /* media queries —————————————————————————————————————————————————————— */
 
