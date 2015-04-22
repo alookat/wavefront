@@ -161,6 +161,10 @@ section ul {
 		border-bottom: 0;
 	}
 
+#section3 h2 {
+	margin-bottom: 24pt;
+}
+
 #section3,
 #section3 ul li {
 	text-align: center;
@@ -197,29 +201,36 @@ section ul {
 
 #university {
 	background-color: #222a2d;
+	background-image: url(../img/wave-bg-02.png);
+  	background-size: 160%;
+  	background-position: center center;
 }
 
-	#university h2,
-	#university ul li {
+	#university h2 {
 		color: white;
 	}
 
 	#university ul li {
+		background-color: #2C3437;
 		text-align: left;
 		border: 1px solid #6f797d;
 		border-radius: 5px;
-		padding: -308px -20px 0 0;
+		padding: 36pt 12pt 36pt 92pt;
 		margin: 2%;
-
 		width: 46%;
 		float: left;
+		font-size: 14pt;
+		color: rgba(255, 255, 255, 0.8);
+
+
+		background-image: url(../img/tick.png);
+		background-repeat: no-repeat;
+		background-size: 75px;
+		background-position: center left 24pt;
 	}
 
-		#university ul li:before {
-			content: url(../img/tick.png);
-			position: relative;
-			left: -18pt;
-			top: 40px;
+		#university ul li:hover {
+			/*background-color: rgba(255, 255, 255, 0.05);*/
 		}
 
 
