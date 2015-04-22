@@ -45,7 +45,7 @@
 			<section>
 				<h2>Your feedback is important to Wavefront</h2>
 				<h4>Whether you have a question on using Wavefront to identify your users, you want to incorporate it into your product, or you have new ideas for us &mdash; we're always glad to discuss.</h4>
-				<h4>Please email us or fill out the contact form below and we'll be sure to respond</h4>
+				<h4>Please email us or fill out the contact form below and we'll be sure to respond.</h4>
 			</section>
 
 			<section class="col-1-3">
@@ -64,17 +64,17 @@
 			<section class="col-2-3">
 				<h3>Contact form</h3>
 				<form method="post" action="php/contactengine.php">
-					<label for="Name">Name</label>
-					<input type="text" required name="Name" id="Name" placeholder="Firstname Lastname" required />
+					<label for="Name">Name*</label>
+					<input type="text" name="Name" id="Name" placeholder="Firstname Lastname" required />
 		
-					<label for="Email">Email</label>
-					<input type="text" required name="Email" id="Email" placeholder="email@example.com" />
+					<label for="Email">Email*</label>
+					<input type="text" required name="Email" id="Email" placeholder="email@example.com" required />
 
 					<label for="Website">Website</label>
 					<input type="text" name="Website" id="Website" placeholder="example.com (optional)" />
 					
-					<label for="Message">Message</label>
-					<textarea name="Message" rows="20" cols="20" id="Message" placeholder="Your message to Wavefront Biometric here"></textarea>
+					<label for="Message">Message*</label>
+					<textarea name="Message" rows="20" cols="20" id="Message" placeholder="Your message to Wavefront Biometric here" required></textarea>
 
 					<input type="submit" name="submit" value="Submit" class="submit-button" />
 				</form>

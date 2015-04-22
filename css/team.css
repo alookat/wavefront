@@ -2,10 +2,24 @@
 	text-align: center;
 }
 
+.content:last-of-type {
+	padding-top: 0;
+	margin-bottom: 60pt;
+}
+
 .content h2 {
  	margin-bottom: 60px;
- 	/*text-align: left;*/
 }
+
+	#team-structure{
+		border-top: 1px solid rgba(0,0,0, 0.1);
+		padding-top: 24pt;
+	}
+	/*Team structure bit*/
+	#team-structure h2{
+		/*margin-top: 60pt;*/
+	 	margin-bottom: 12pt;
+	}
 
 .bio {
 	display: block;
