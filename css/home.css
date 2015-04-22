@@ -215,6 +215,14 @@ section ul {
 		float: left;
 	}
 
+		#university ul li:before {
+			content: url(../img/tick.png);
+			position: relative;
+			left: -18pt;
+			top: 40px;
+		}
+
+
 #byline {
 	background-color: #667e86;
 	background-image: url(../img/shanny.jpg);
