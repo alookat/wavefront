@@ -3,11 +3,11 @@
 	<title>Contact Us</title>
 	<meta http-equiv="Content-Type" name="Wavefront Biometric Technologies" content="text/html; charset=utf-8">
 
-	<link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/grid.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="../css/normalize.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="../css/grid.css" media="screen">
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/contact.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/contact.css">
 
 	<!-- Light-weight styling for button etc -->
 	<style type="text/css">
@@ -46,18 +46,18 @@
 		<header class="grid">
 
 			<a href="index.html">
-				<img src="img/symbol-white.png">
-				<img src="img/logotype-white.png">
+				<img src="../img/symbol-white.png">
+				<img src="../img/logotype-white.png">
 			</a>
 			
 			<nav>
 				<ul id="nav">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="how-it-works.html">How it works</a></li>
-					<li><a href="team.html">Team</a></li>
-					<li><a href="investors.html">Investors</a></li>
-					<li><a href="news.html">News</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../how-it-works.html">How it works</a></li>
+					<li><a href="../team.html">Team</a></li>
+					<li><a href="../investors.html">Investors</a></li>
+					<li><a href="../news.html">News</a></li>
+					<li><a href="../contact.html">Contact</a></li>
 				</ul>
 			</nav>
 
@@ -73,7 +73,7 @@
 				<h2>Thank you</h2>
 				<h4>Your message has been sent. We'll  be in touch.</h4>
 
-				<a class="dark-a" href="index.html">Back to Wavefront</a>
+				<a class="dark-a" href="../index.html">Back to Wavefront</a>
 			</section>
 		</div>		
 	</div>
@@ -83,7 +83,7 @@
 	<footer>
 		<div class="grid">
 			<div class="col-1-3">
-				<img id="logotype" src="img/logotype-white.png">
+				<img id="logotype" src="../img/logotype-white.png">
 				<p>The future of ID</p>
 			</div>
 
@@ -102,7 +102,7 @@
 			</div>
 		</div>
 		<div id="copyright">
-			<img id="symbol" src="img/symbol-white.png">
+			<img id="symbol" src="../img/symbol-white.png">
 			<h6>Copyright &copy; 2015 by Wavefront Biometric Technologies Pty Ltd. All Rights Reserved.</h6>
 		</div>
 	</footer>
@@ -116,8 +116,8 @@
 	</script>
 	
 </body>
-<script src="js/respond.js"></script>
-<script src="js/selectnav.min.js"></script>
+<script src="../js/respond.js"></script>
+<script src="../js/selectnav.min.js"></script>
 <script>selectnav('nav'); </script>
 
 </html>

@@ -1,0 +1,24 @@
+.dark {
+	background-color: black;
+	color: white;
+}
+
+
+
+section {
+	padding: 0;
+	margin: 0;
+	
+}
+
+section img {
+	margin: 0 auto;
+	text-align: center;
+	height: 400px;
+}
+
+.desc {
+	position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}

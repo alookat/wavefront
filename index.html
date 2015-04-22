@@ -9,7 +9,8 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/home.css">
 
-	<link rel="stylesheet" href="plugins/swipebox/src/css/swipebox.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.3.0.2/css/swipebox.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.3.0.2/css/swipebox.min.css">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"> <!-- turns on media queries -->
 </head>
@@ -34,14 +35,14 @@
 
 		</header>
 		
-			<!-- <iframe src="https://player.vimeo.com/video/124510802?color=ffffff&title=0&byline=0&portrait=0" width="480" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+			<iframe src="https://player.vimeo.com/video/124510802?color=ffffff&title=0&byline=0&portrait=0" width="480" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-			<div class="videobox">	
+			<!-- <div class="videobox">	
 				<a class="swipebox-video" href="http://vimeo.com/124510802">
 				<img id="video-preview" src="img/video-preview.jpg" alt="Wavefront Introduction Video">
 				<span></span>
 				</a>
-			</div>
+			</div> -->
 
 			<h1>The revolutionary foundation for seamlessly and safely capturing multi-modal, natural, one time PINs using the human eye</h1>
 	</div>
@@ -81,13 +82,11 @@
 			<h2>University testing shows we are</h2>
 			<ul>
 				<li>able to detect liveness</li>
-				<li>able to detect contactless</li>
+				<li>contactless</li>
 				<li>non-invasive and safe</li>
-				<li>multi modal via single sensor</li>
-				<li>highly accurate</li>
-				<li>broadest enrollment</li>
+				<li>multi modal via a single sensor</li>
+				<li>fast yet highly accurate</li>
 				<li>low cost, low maintenance</li>
-				<li>fast</li>
 				<li>complimentary to other factors for authentication</li>
 			</ul>
 		</section>
@@ -148,27 +147,13 @@
 
 	<script src="plugins/swipebox/lib/ios-orientationchange-fix.js"></script>
 	<script src="plugins/swipebox/lib/jquery-2.1.0.min.js"></script>
-	<script src="plugins/swipebox/src/js/jquery.swipebox.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.3.0.2/js/jquery.swipebox.min.js"></script>
 
 	<script type="text/javascript">
-		$( document ).ready(function() {
-
-			/* Basic Gallery */
-			$( '.swipebox' ).swipebox();
-			
-			/* Video */
-			$( '.swipebox-video' ).swipebox();
-
-			/* Dynamic Gallery */
-			$( '#gallery' ).click( function( e ) {
-				e.preventDefault();
-				$.swipebox( [
-					{ href : 'http://swipebox.csag.co/mages/image-1.jpg', title : 'My Caption' },
-					{ href : 'http://swipebox.csag.co/images/image-2.jpg', title : 'My Second Caption' }
-				] );
-			} );
-
-      });
+		$(function () {
+		    /* Video */
+		    $('.swipebox-video').swipebox();
+		});
 	</script>
 
 
