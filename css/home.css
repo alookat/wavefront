@@ -8,6 +8,8 @@
 iframe {
 	/*And a bit of space after the header, before the video/intro copy*/
 	margin: 60px 0 20px;
+	width: 480px;
+	height: 270px;
 }
 
 /*The video preview container*/
@@ -60,12 +62,13 @@ iframe {
   	text-align: center;
 }
 
+.content {
+  padding: 60px 0 0;
+}
+
 .content section {
 	max-width: 960px;
 	margin: 0 auto;
-	padding-bottom: 60px;
-	/*border-bottom: 1px solid rgba(0, 0, 0, 0.1);*/
-
 }
 
 .content h2 {
@@ -98,10 +101,6 @@ section ul {
 	margin: 0 auto;
 }
 
-#section1 {
-	padding-bottom: 400px;
-}
-
 #section2 {
 	padding-bottom: 72pt;
 }
@@ -111,7 +110,7 @@ section ul {
 #section1 p {
 	text-align: center;
 	max-width: 690px;
-	margin: 0 auto 36pt;
+	margin: 0 auto 48pt;
 	font-size: 14pt;
 	line-height: 21pt;
 	color: #6f797d;
@@ -185,12 +184,19 @@ section ul {
 #problem {
 	/*Bulleted areas multiple backgrounds*/
 	/*https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_multiple_backgrounds*/
-	background:	url(../img/intro-img.png), url(../img/wave-bg-04.png);
+	background: url(../img/wave-bg-04.png);
 	background-repeat: no-repeat;
 	background-position: bottom center, bottom center;
-	background-size: 75%, 150%;
-	padding: 56pt 0 0;
+	background-size: 140%;
+	text-align: center;
+	margin: 0 auto;
 }
+
+	#problem img {
+		width: 100%;
+		margin: 72pt auto 0;
+		text-align: center;
+	}
 
 #patent {
 	background:	url(../img/patentlight.png);
@@ -278,6 +284,20 @@ footer {
 	}
 
 /* media queries —————————————————————————————————————————————————————— */
+@media screen and (max-width: 935px) {
+	#byline {
+		background-color: #222a2d;
+		background-image: url(../img/wave-bg-02.png);
+  		background-size: 200%;
+  		background-position: center center;
+	}
+
+		#byline section {
+			width: 90%;
+			max-width: 550px;
+			margin: 0 auto;
+		}
+}
 
 @media screen and (max-width: 760px) {
 	#top h1 {
@@ -290,27 +310,10 @@ footer {
 		font-size: 28pt;
 	}
 
-	#section1 {
-		padding-bottom: 300px;
-	}
 
 	#problem {
-		background-position: bottom center, bottom center;
-		background-size: 110%, 300%;
-		padding: 56pt 0 0;
+		background-size: 190%;
 	}
-
-	#byline {
-		background-color: #222a2d;
-		background-image: url(../img/wave-bg-02.png);
-  		background-size: 200%;
-  		background-position: center center;
-	}
-
-		#byline section {
-			width: 90%;
-			margin: 0 auto;
-		}
 
 	#university ul li {
 		width: 100%;
@@ -344,6 +347,10 @@ footer {
 	}
 }
 
-
+@media screen and (max-width: 500px) {
+	iframe {
+		width: 90%;
+	}
+}
 
 
