@@ -194,8 +194,8 @@ section ul {
 
 #patent {
 	background:	url(../img/patentlight.png);
-	background-repeat: no-repeat;
-	background-position: center center;
+	/*background-repeat: no-repeat;*/
+	background-position: top center;
 	background-size: 106%;
 }
 
@@ -230,7 +230,7 @@ section ul {
 	}
 
 		#university ul li:hover {
-			/*background-color: rgba(255, 255, 255, 0.05);*/
+			background-color: #333f43;
 		}
 
 
@@ -286,6 +286,20 @@ footer {
 		margin: 20px auto 40px;
 	}
 
+	.content h2 {
+		font-size: 28pt;
+	}
+
+	#section1 {
+		padding-bottom: 300px;
+	}
+
+	#problem {
+		background-position: bottom center, bottom center;
+		background-size: 110%, 300%;
+		padding: 56pt 0 0;
+	}
+
 	#byline {
 		background-color: #222a2d;
 		background-image: url(../img/wave-bg-02.png);
@@ -301,24 +315,32 @@ footer {
 	#university ul li {
 		width: 100%;
 		margin: 2% auto;
+		padding: 24pt 12pt 24pt 80pt;
+		background-size: 50px;
+		background-position: center left 24pt;
 	}
 
+
 	#section2 ul {
-	background-color: white;
-	border-radius: 5px;
-	margin: 12pt auto	;
-	/*padding: 18pt 0;*/
-	border: 2px solid rgba(0,0,0, 0.05);
-	width: 100%;
-	max-width: 100%;
-}
+		background-color: white;
+		border-radius: 5px;
+		margin: 24pt auto;
+		padding: 24pt 0;
+		border: 2px solid rgba(0,0,0, 0.05);
+		width: 100%;
+		max-width: 100%;
+	}
 
 	#section2 ul li {
 		font-size: 14pt;
 		width: 95%;
-		margin: 24pt auto;
+		margin: 12pt auto;
 		padding-bottom: 24pt;
 		border-bottom: 1px solid rgba(0,0,0, 0.1);
+	}
+
+	#patent {
+		background-size: 200%;
 	}
 }
 
