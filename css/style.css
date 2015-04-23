@@ -326,7 +326,7 @@ article blockquote {
 			float: left;
 			text-align: right;
 			/*Give each nav list item a bit of padding on the right*/
-			padding-right: 45px;
+			padding-right: 35px;
 		}
 			
 			nav ul li:last-of-type {
