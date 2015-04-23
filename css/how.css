@@ -1,7 +1,32 @@
+.content {
+	background:	url(../img/patentlight.png);
+	/*background-repeat: no-repeat;*/
+	background-position: top center;
+	background-size: 106%;
+}
+
 .content h2 {
  	margin-bottom: 60px;
  	text-align: center;
 }
+
+#how-flow {
+	background-color: white;
+	border-radius: 5px;
+	margin: 12pt auto 48pt;
+	padding: 18pt 0;
+	border: 2px solid rgba(0,0,0, 0.05);
+	max-width: 90%;
+}
+
+.how-desc {
+	border-bottom: 1px solid rgba(0,0,0, 0.1);
+	padding-bottom: 48pt;
+}
+
+	.last {
+		border-bottom: none;
+	}
 
 .content p {
 	font-size: 16pt;
