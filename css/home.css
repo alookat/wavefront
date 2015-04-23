@@ -35,44 +35,9 @@ iframe {
 	max-height: 270px;
 
 	-webkit-box-shadow: 0px 0px 9px 3px rgba(0,0,0,0.15);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  		-moz-box-shadow:    0px 0px 9px 3px rgba(0,0,0,0.15);  /* Firefox 3.5 - 3.6 */
-  		box-shadow:         0px 0px 9px 3px rgba(0,0,0,0.15);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+	-moz-box-shadow:    0px 0px 9px 3px rgba(0,0,0,0.15);  /* Firefox 3.5 - 3.6 */
+	box-shadow:         0px 0px 9px 3px rgba(0,0,0,0.15);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
-
-/*The video preview container*/
-.videobox { 
-	position: relative;
-	/*And a bit of space after the header, before the video/intro copy*/
-	margin: 60px 0 20px;
-}
-
-	#video-preview {
-		max-width: 480px;
-		border-radius: 5px;
-		/*border: 1px solid rgba(255,255,255,0.33);*/
-		-webkit-box-shadow: 0px 0px 9px 3px rgba(0,0,0,0.15);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  		-moz-box-shadow:    0px 0px 9px 3px rgba(0,0,0,0.15);  /* Firefox 3.5 - 3.6 */
-  		box-shadow:         0px 0px 9px 3px rgba(0,0,0,0.15);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-	}
-
-		/*The play button*/
-		.videobox span {
-		  display: block;
-		  position: absolute;
-		  top: 0;
-		  left: 0;
-		  bottom: 0;
-		  right: 0;
-		  z-index: 1;
-		  background: url(../img/video-button.png) no-repeat center center;
-		  background-size: 80px;
-		  opacity: 0.66;
-		}
-
-		/*Get rid of that s-wide border*/
-		.videobox a {
-			border-bottom: none;
-		}
 
 #top {
 	/*Background image*/
@@ -133,7 +98,9 @@ section ul {
 }
 
 
-
+#section1 h2 {
+	margin-bottom: 8pt;
+}
 #section1 p {
 	text-align: center;
 	max-width: 690px;
@@ -388,9 +355,9 @@ footer {
 		width: 90%;
 	}
 
-	/*iframe {
-		width: 90%;
-	}*/
+	.embed-container iframe {
+		width: 80%;
+	}
 
 	#university ul li {
 		font-size: 11pt;

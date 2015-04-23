@@ -132,7 +132,7 @@ footer {
 		}
 
 	/*The symbol*/
-	footer #symbol {
+	footer .symbol {
 		padding: 40px 0;
 		width: 60px;
 	}
@@ -342,7 +342,7 @@ article blockquote {
   	float: right;
   }
 
-  #symbol {
+  header .symbol {
   	display: none;
   }
 
@@ -372,6 +372,16 @@ article blockquote {
  		margin-bottom: 12pt;
  	}
 
+}
+
+/*When the grid becomes one-wide (80%)*/
+@media screen and (max-width: 640px) {
+
+	footer #copyright {
+		text-align: left;
+		width: 80%;
+		margin: 0 10%;
+	}
 }
 
 

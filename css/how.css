@@ -1,24 +1,96 @@
-.dark {
-	background-color: black;
-	color: white;
+.content h2 {
+ 	margin-bottom: 60px;
+ 	text-align: center;
 }
 
-
-
-section {
-	padding: 0;
-	margin: 0;
-	
+.content p {
+	font-size: 16pt;
+	line-height: 24pt;
 }
 
-section img {
+aside {
+	font-style: italic;
+	color: #6F797D;
+}
+
+/*Hide the in-copy numbers for now*/
+.content section h5 {
+	display: none;
+}
+
+.content section {
 	margin: 0 auto;
-	text-align: center;
-	height: 400px;
+	width: 70%; 
+	max-width: 900px;
+	padding: 60px 0 60px 200px;
+
+	/*The artwork for each section*/
+	background-repeat: no-repeat;
+	background-size: 120px;
+	background-position: center left 24pt;
 }
 
-.desc {
-	position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+	/*The section numbers*/
+	.content section:before {
+		position: relative;
+		left: -240px;
+		top: 56px;
+		font-size: 32pt;
+		color: #6F797D;
+	}
+
+
+
+section:nth-child(1) {
+	background-image: url(../img/how/how1.png);
 }
+	section:nth-child(1):before {
+		content: "1";
+	}
+
+section:nth-child(2) {
+	background-image: url(../img/how/how1.png);
+}
+	section:nth-child(2):before {
+		content: "2";
+	}
+
+section:nth-child(3) {
+	background-image: url(../img/how/how1.png);
+}
+	section:nth-child(3):before {
+		content: "3";
+	}
+
+section:nth-child(4) {
+	background-image: url(../img/how/how1.png);
+}
+	section:nth-child(4):before {
+		content: "4";
+	}
+
+section:nth-child(5) {
+	background-image: url(../img/how/how1.png);
+}
+	section:nth-child(5):before {
+		content: "5";
+	}
+
+section:nth-child(6) {
+	background-image: url(../img/how/how1.png);
+}
+	section:nth-child(6):before {
+		content: "6";
+	}
+
+section:nth-child(7) {
+	background-image: url(../img/how/how1.png);
+}
+	section:nth-child(7):before {
+		content: "7";
+	}
+
+
+
+
+
