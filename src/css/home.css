@@ -236,6 +236,10 @@ section ul {
 
 
 #byline {
+	/*Backup background & color*/
+	background-color: #222a2d;
+	background-image: url(../img/wave-bg.png);
+	/*Real background*/
 	background-image: url(../img/shanny.jpg);
 	background-repeat: no-repeat;
 	background-position: top left;

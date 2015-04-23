@@ -90,10 +90,10 @@ header {
 #top {
   /*Background color*/
   background-color: #222a2d;
-  background-image: url(../img/wave-bg-01.png);
+  background-image: url(../img/wave-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: 150%;
   /*Universal text preferences*/
   color: white;
   /*Bit of breathing-space on the top and bottom*/

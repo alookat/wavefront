@@ -26,9 +26,47 @@ tbody tr {
 		background-color: rgba(0,0,0, 0.05);
 	}
 
+/* RESPONSIVE EXAMPLE */
+
+.stacktable.large-only { display: table; }
+.stacktable.small-only { display: none; }
+
 /* media queries —————————————————————————————————————————————————————— */
 
-@media screen and (max-width: 760px) {
-	table {
+@media screen and (max-width: 890px) {
+
+	th, td {
+		padding: 12pt 0 24pt;
+		padding-right: 26pt;
 	}
+
+	.stacktable.large-only { display: none; }
+ 	.stacktable.small-only { display: table; }
+
+ 	tr td:first-child {
+ 		font-weight: 500;
+ 	}
+
+ 	/*the case numbers*/
+ 	.st-head-row {
+ 		font-weight: 300;
+ 		font-size: 18pt;
+ 		text-align: center;
+ 		padding-top: 48pt;
+ 		margin: 24pt 0;
+ 	}
+
+ 		/*Putting the title back in manually (see below)*/
+ 		.st-head-row:before {
+ 			content: 'Case Ref. ';
+ 		}
+
+ 	/*the case numbers' title 'Case Ref.'*/
+ 	.st-head-row-main {
+ 		display: none;
+ 	}
+
+ 	th {
+	font-weight: 300;
+}
 }
