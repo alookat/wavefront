@@ -298,6 +298,13 @@ footer {
 			max-width: 550px;
 			margin: 0 auto;
 		}
+
+	#university ul li {
+		font-size: 12pt;
+		padding: 24pt 12pt 24pt 70pt;
+		background-size: 40px;
+		background-position: center left 24pt;
+	}
 }
 
 @media screen and (max-width: 760px) {
@@ -351,6 +358,10 @@ footer {
 @media screen and (max-width: 500px) {
 	iframe {
 		width: 90%;
+	}
+
+	#university ul li {
+		font-size: 11pt;
 	}
 }
 
