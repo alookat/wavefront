@@ -34,6 +34,7 @@ a:hover {
 nav ul {
 	/*Make the whole nav element stick to the right-side of the page*/
 	float: right;
+	list-style: none;
 }
 
 	nav ul li {
@@ -349,6 +350,7 @@ article blockquote {
   .js .selectnav { 
   	display: block;
   	float: right;
+  	color: black;
   }
 
   header .symbol {

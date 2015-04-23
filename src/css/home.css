@@ -178,7 +178,7 @@ section ul {
 #problem {
 	/*Bulleted areas multiple backgrounds*/
 	/*https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_multiple_backgrounds*/
-	background: url(../img/wave-bg-04.png);
+	background: url(../img/wave-bg-bottom.png);
 	background-repeat: no-repeat;
 	background-position: bottom center, bottom center;
 	background-size: 140%;
@@ -201,7 +201,7 @@ section ul {
 
 #university {
 	background-color: #222a2d;
-	background-image: url(../img/wave-bg-02.png);
+	background-image: url(../img/wave-bg.png);
   	background-size: 160%;
   	background-position: center center;
   	padding-bottom: 60pt;
@@ -273,7 +273,7 @@ section ul {
 @media screen and (max-width: 935px) {
 	#byline {
 		background-color: #222a2d;
-		background-image: url(../img/wave-bg-02.png);
+		background-image: url(../img/wave-bg.png);
   		background-size: 200%;
   		background-position: center center;
 	}
