@@ -1,17 +1,17 @@
 <?php
 
-$EmailFrom = "info@wavefrontbiometric.com";
-$EmailTo = "$Email";
-$Subject = "Thanks for contacting Wavefront";
-$Name = Trim(stripslashes($_POST['Name']));  
+$EmailFrom = "white.daniel.james@gmail.com";
+$EmailTo = "white.daniel.james@gmail.com";
+$Subject = "Nice & Simple Contact Form by CSS-Tricks";
+$Name = Trim(stripslashes($_POST['Name'])); 
+$Tel = Trim(stripslashes($_POST['Tel'])); 
 $Email = Trim(stripslashes($_POST['Email'])); 
-$Website = Trim(stripslashes($_POST['Website']));
 $Message = Trim(stripslashes($_POST['Message'])); 
 
 // validation
 $validationOK=true;
 if (!$validationOK) {
-  header('Location: contactthanks.php');
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=error.htm\">";
   exit;
 }
 
@@ -20,11 +20,11 @@ $Body = "";
 $Body .= "Name: ";
 $Body .= $Name;
 $Body .= "\n";
+$Body .= "Tel: ";
+$Body .= $Tel;
+$Body .= "\n";
 $Body .= "Email: ";
 $Body .= $Email;
-$Body .= "\n";
-$Body .= "Website: ";
-$Body .= $Website;
 $Body .= "\n";
 $Body .= "Message: ";
 $Body .= $Message;
@@ -35,11 +35,9 @@ $success = mail($EmailTo, $Subject, $Body, "From: <$EmailFrom>");
 
 // redirect to success page 
 if ($success){
-  header('Location: contactthanks.php');
-  exit;
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=contactthanks.php\">";
 }
-else {
-  header('Location: contacterror.php');
-  exit;
+else{
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=error.htm\">";
 }
 ?>
