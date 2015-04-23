@@ -110,6 +110,15 @@ footer {
 	padding: 60px 0 40px;
 }
 
+footer.light {
+	background-color: #f4f6f7;
+	color: #6f797d;
+}
+
+	footer.light .grid {
+		border-bottom: 1px solid rgba(0,0,0, 0.1);
+	}
+
 	
 	footer .grid {
 		text-align: left;

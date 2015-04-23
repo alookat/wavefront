@@ -269,15 +269,6 @@ section ul {
 			padding: 20px 70px;
 		}
 
-footer {
-	background-color: #f4f6f7;
-	color: #6f797d;
-}
-
-	footer .grid {
-		border-bottom: 1px solid rgba(0,0,0, 0.1);
-	}
-
 /* media queries —————————————————————————————————————————————————————— */
 @media screen and (max-width: 935px) {
 	#byline {

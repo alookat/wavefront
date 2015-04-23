@@ -1,11 +1,11 @@
-.content {
+#verify {
 	background:	url(../img/patentlight.png);
 	/*background-repeat: no-repeat;*/
 	background-position: top center;
 	background-size: 106%;
 }
 
-.content h2 {
+#verify h2 {
  	margin-bottom: 60px;
  	text-align: center;
 }
@@ -28,7 +28,7 @@
 		border-bottom: none;
 	}
 
-.content p {
+#verify p {
 	font-size: 16pt;
 	line-height: 24pt;
 }
@@ -39,14 +39,14 @@ aside {
 }
 
 /*Hide the in-copy numbers for now*/
-.content section h5 {
+#verify section h5 {
 	display: none;
 	font-size: 32pt;
 	color: #6F797D;
 	line-height: 18pt;
 }
 
-.content section {
+#verify section {
 	margin: 0 auto;
 	width: 70%; 
 	max-width: 900px;
@@ -59,7 +59,7 @@ aside {
 }
 
 	/*The section numbers*/
-	.content section:before {
+	#verify section:before {
 		position: relative;
 		left: -240px;
 		top: 56pt;
@@ -126,27 +126,55 @@ section:nth-child(7) {
 	}
 
 
+#anatomy {
+	background-color: #222a2d;
+	background-image: url(../img/wave-bg-02.png);
+  	background-size: 160%;
+  	background-position: center center;
+  	padding-bottom: 60pt;
+  	text-align: center;
+}
+
+	#anatomy h2 {
+		color: white;
+		padding-bottom: 32pt;
+	}
+
+	#anatomy img {
+		width: 100%;
+		max-width: 640px;
+		margin: 0 auto;
+		border-radius: 5px;
+		border: 1px solid rgba(255, 255, 255, 0.3);
+		padding: 6pt;
+	}
+
+	#anatomy a {
+		border-bottom: none;
+	}
+
+
 /* media queries —————————————————————————————————————————————————————— */
 @media screen and (max-width: 1260px) {
 	/*Hide the section numbers*/
-	.content section:before {
+	#verify section:before {
 		content: "";
 	}
 
 	/*Now show the in-copy numbers for now*/
-	.content section h5 {
+	#verify section h5 {
 		display: inline;
 	}
 
 	/*Fix the left side now*/
-	.content section {
+	#verify section {
 		width: 80%; 
 	}
 }
 
 @media screen and (max-width: 960px) {
 	/*Adjust the left side now*/
-	.content section {
+	#verify section {
 		width: 90%; 
 	}
 
@@ -156,11 +184,11 @@ section:nth-child(7) {
 }
 
 @media screen and (max-width: 700px) {
-	.content {
+	#verify {
 		background:	none;
 	}
 
-	.content p {
+	#verify p {
 		font-size: 14pt;
 		line-height: 21pt;
 	}
@@ -174,7 +202,7 @@ section:nth-child(7) {
 		max-width: 100%;
 	}
 
-	.content section {
+	#verify section {
 		margin: 0 auto;
 		width: 100%; 
 		padding: 24pt 0 12pt 120px;
@@ -190,7 +218,7 @@ section:nth-child(7) {
 }
 
 @media screen and (max-width: 540px) {
-	.content p {
+	#verify p {
 		font-size: 12pt;
 		line-height: 18pt;
 	}
