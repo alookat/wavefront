@@ -7,9 +7,36 @@
 
 iframe {
 	/*And a bit of space after the header, before the video/intro copy*/
+	/*margin: 60px 0 20px;
+	max-width: 480px;
+	max-height: 270px;*/
+}
+
+.embed-container {
+	margin: 0 auto;
+
+	position: relative;
+	/*padding-bottom: 56.25%;*/
+	/*height: 0;*/
+	overflow: hidden;
+	max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+	/*position: absolute;
+	top: 0;
+	left: 0;*/
+	width: 100%;
+	height: 100%;
 	margin: 60px 0 20px;
-	width: 480px;
-	height: 270px;
+	max-width: 480px;
+	max-height: 270px;
+
+	-webkit-box-shadow: 0px 0px 9px 3px rgba(0,0,0,0.15);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  		-moz-box-shadow:    0px 0px 9px 3px rgba(0,0,0,0.15);  /* Firefox 3.5 - 3.6 */
+  		box-shadow:         0px 0px 9px 3px rgba(0,0,0,0.15);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
 /*The video preview container*/
@@ -310,7 +337,7 @@ footer {
 @media screen and (max-width: 760px) {
 	#top h1 {
 		font-size: 21pt;
-		width: 70%;
+		width: 80%;
 		margin: 20px auto 40px;
 	}
 
@@ -356,9 +383,14 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
-	iframe {
+	#top h1 {
+		font-size: 18pt;
 		width: 90%;
 	}
+
+	/*iframe {
+		width: 90%;
+	}*/
 
 	#university ul li {
 		font-size: 11pt;
