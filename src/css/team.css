@@ -2,11 +2,6 @@
 	text-align: center;
 }
 
-.content:last-of-type {
-	padding-top: 0;
-	margin-bottom: 60pt;
-}
-
 .content h2 {
  	margin-bottom: 60px;
 }
@@ -24,9 +19,41 @@
 .bio {
 	display: block;
 	width: 150px;
+	height: 150px;
 	border-radius: 150px;
 	margin: 0 auto 20px;
 	background-color: rgba(0,0,0, 0.25);
+}
+
+.bio-pull-out {
+	background-color: white;
+	border-radius: 5px;
+	margin: 12pt auto 48pt;
+	padding: 36pt 48pt;
+	border: 2px solid rgba(0,0,0, 0.06);
+	width: 90%;
+	/*max-width: 700px;*/
+	max-width: 700px;
+}
+
+	.bio-pull-out p:first-of-type {
+		padding-top: 16pt;
+	}
+
+	.bio-pull-out p:last-of-type {
+		padding-bottom: 36pt;
+	}
+
+.pill-solo {
+	margin-bottom: 36pt;
+}
+
+	.pill-solo:last-of-type {
+		margin-bottom: 0;
+	}
+
+.hero-list {
+	padding-left: 18pt;
 }
 
 /* media queries —————————————————————————————————————————————————————— */
@@ -37,4 +64,15 @@
  		margin-bottom: 72pt;
  	}
 
+}
+
+@media screen and (max-width: 600px) {
+	.bio-pull-out {
+ 		width: 100%;
+ 		max-width: 100%;
+ 		padding: 0;
+
+ 		background: none;
+ 		border: none;
+ 	}
 }

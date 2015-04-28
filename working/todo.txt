@@ -1,10 +1,7 @@
 To do:
 
--	Change contact form (php) email address to info@wavefrontbiometric.com
--	Contact form validation for Safari
+
 -	Team page: turn two sections into one for better responsive resizing, make alpha & omega classes in the grid.css or something to make padding right
--	Favicon
--	Apple touch icon
 -	Tidy up CSS across pages (merge where possible)
 -	Change up header background image on every page
 -	Revisit responsive nav (simple 2 column grid up top)
@@ -18,3 +15,12 @@ To do:
 Done:
 -	Choose frame for video cover image
 -	Add links to investor page (Nemex website, ASX link, etc)
+-	Favicon
+-	Apple touch icon
+
+
+
+
+Not needed anymore:
+-	Change contact form (php) email address to info@wavefrontbiometric.com
+-	Contact form validation for Safari
