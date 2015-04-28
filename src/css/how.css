@@ -40,17 +40,19 @@ aside {
 
 /*Hide the in-copy numbers for now*/
 #verify section h5 {
-	display: none;
+	/*display: none;*/
 	font-size: 32pt;
 	color: #6F797D;
 	line-height: 18pt;
+	/*margin-top: 48pt;*/
 }
 
 #verify section {
 	margin: 0 auto;
 	width: 70%; 
+	/*height: 300px;*/
 	max-width: 900px;
-	padding: 60px 0 60px 170px;
+	padding: 64pt 0 48pt 170px;
 
 	/*The artwork for each section*/
 	background-repeat: no-repeat;
@@ -59,71 +61,43 @@ aside {
 }
 
 	/*The section numbers*/
-	#verify section:before {
+	/*#verify section:before {
 		position: relative;
 		left: -240px;
 		top: 56pt;
 		font-size: 32pt;
 		color: #6F797D;
-	}
+	}*/
 
 
 
 section:nth-child(1) {
 	background-image: url(../img/how/how1.png);
 }
-	section:nth-child(1):before {
-		content: "1";
-		top: 72pt;
-	}
 
 section:nth-child(2) {
 	background-image: url(../img/how/how2.png);
 }
-	section:nth-child(2):before {
-		content: "2";
-		top: 72pt;
-	}
 
 section:nth-child(3) {
 	background-image: url(../img/how/how3.png);
 }
-	section:nth-child(3):before {
-		content: "3";
-		top: 62pt;
-	}
 
 section:nth-child(4) {
 	background-image: url(../img/how/how4.png);
 }
-	section:nth-child(4):before {
-		content: "4";
-		top: 66pt;
-	}
 
 section:nth-child(5) {
 	background-image: url(../img/how/how5.png);
 }
-	section:nth-child(5):before {
-		content: "5";
-		top: 50pt;
-	}
 
 section:nth-child(6) {
 	background-image: url(../img/how/how6.png);
 }
-	section:nth-child(6):before {
-		content: "6";
-		top: 56pt;
-	}
 
 section:nth-child(7) {
 	background-image: url(../img/how/how7.png);
 }
-	section:nth-child(7):before {
-		content: "7";
-		top: 58pt;
-	}
 
 
 #anatomy {
@@ -156,15 +130,6 @@ section:nth-child(7) {
 
 /* media queries —————————————————————————————————————————————————————— */
 @media screen and (max-width: 1260px) {
-	/*Hide the section numbers*/
-	#verify section:before {
-		content: "";
-	}
-
-	/*Now show the in-copy numbers for now*/
-	#verify section h5 {
-		display: inline;
-	}
 
 	/*Fix the left side now*/
 	#verify section {
