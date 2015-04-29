@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>Video test</title>
+
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.3.0.2/css/swipebox.min.css">
+
+</head>
+<body>
+	<div class="videobox">
+		<a class="swipebox-video" rel="vimeo" href="http://vimeo.com/124510802">
+	    	<img id="video-preview" src="img/video-preview.jpg" alt="Wavefront Introduction Video" />
+	    	<span></span>
+	    </a>
+	</div>
+
+
+
+	<!-- swipebox -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.3.0.2/js/jquery.swipebox.js"></script>
+	<script>
+		$(function () {
+		    /* Video */
+		    $('.swipebox-video').swipebox();
+		});
+	</script>
+</body>
+</html>
