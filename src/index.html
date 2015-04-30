@@ -9,7 +9,9 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/home.css">
 
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.3.0.2/css/swipebox.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.3.0.2/css/swipebox.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/swipebox.css">
+
 
 	<!-- turns on media queries -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -158,11 +160,18 @@
 
 	<!-- swipebox -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.3.0.2/js/jquery.swipebox.js"></script>
+	<!-- old swipebox
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.3.0.2/js/jquery.swipebox.js"></script> -->
+
+	<!-- autoplay swipebox fork -->
+	<script src="js/jquery.swipebox.min.js"></script>
 	<script>
 		$(function () {
 		    /* Video */
-		    $('.swipebox-video').swipebox();
+		    $('.swipebox-video').swipebox( {
+		    	videoMaxWidth : 1140,
+		    	loopAtEnd : true
+	    	} );
 		});
 	</script>
 
