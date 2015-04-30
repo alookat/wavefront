@@ -248,13 +248,14 @@ section ul {
 	}
 
 	#university ul li {
-		background-color: #2C3437;
+		/*background-color: #2C3437;*/
 		text-align: left;
-		border: 1px solid #6f797d;
-		border-radius: 5px;
-		padding: 36pt 12pt 36pt 92pt;
-		margin: 2%;
-		width: 46%;
+		/*border-right: 1px solid #6f797d;*/
+		border-bottom: 1px solid rgba(255,255,255, 0.25);
+		/*border-radius: 5px;*/
+		padding: 18pt 12pt 24pt 72pt;
+		margin: 0 3% 3% 3%;
+		width: 44%;
 		float: left;
 		font-size: 14pt;
 		color: rgba(255, 255, 255, 0.8);
@@ -262,14 +263,14 @@ section ul {
 
 		background-image: url(../img/tick.png);
 		background-repeat: no-repeat;
-		background-size: 75px;
+		background-size: 36px;
 		background-position: center left 24pt;
 	}
 
-		#university ul li:hover {
+		/*#university ul li:hover {
 			background-color: #333f43;
 		}
-
+*/
 		#university-logos {
 			/*width: 100%;*/
 			background-color: #222a2d;
@@ -337,9 +338,9 @@ section ul {
 
 	#university ul li {
 		font-size: 12pt;
-		padding: 24pt 12pt 24pt 70pt;
-		background-size: 40px;
-		background-position: center left 24pt;
+		padding: 18pt 12pt 24pt 60pt;
+		background-size: 30px;
+		background-position: center left 18pt;
 	}
 }
 
@@ -359,12 +360,23 @@ section ul {
 		background-size: 190%;
 	}
 
+	#university ul {
+		width: 90%;
+		margin: 0 auto;
+	}
+
 	#university ul li {
 		width: 100%;
+		font-size: 12pt;
 		margin: 2% auto;
-		padding: 24pt 12pt 24pt 80pt;
+		padding: 24pt 12pt 32pt 80pt;
 		background-size: 50px;
 		background-position: center left 24pt;
+	}
+
+	/*hide every second one*/
+	#university ul li:nth-child(even) {
+		display: none;
 	}
 
 
@@ -379,7 +391,7 @@ section ul {
 	}
 
 	#section2 ul li {
-		font-size: 14pt;
+		font-size: 12pt;
 		width: 95%;
 		margin: 12pt auto;
 		padding-bottom: 24pt;
@@ -405,6 +417,10 @@ section ul {
 
 	.embed-container iframe {
 		width: 80%;
+	}
+
+	#university ul {
+		width: 100%;
 	}
 
 	#university ul li {
