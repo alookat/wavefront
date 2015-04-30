@@ -67,6 +67,34 @@
 	}
 
 	/*A bigger dash for the more important timeline events*/
-	.bigdeal {
+	/*.content section {
 		list-style-image: url('../img/timeline-big.png');
+	}*/
+
+
+	/*The big deal sections*/
+	.content section {
+		background-color: white;
+		border-radius: 5px;
+		padding: 24pt 96pt;
+		/*margin: 12pt;*/
+		margin: 0 auto 24pt;
+		border: 2px solid rgba(0,0,0, 0.05);
+		text-align: center;
 	}
+
+		.content section h4 {
+			font-size: 24pt;
+			color: rgba(0,0,0, 0.75);
+
+		}
+
+		.content section p {
+			text-align: center;
+			/*max-width: 90%;*/
+			margin-top: 0;
+
+		}
+
+
+
