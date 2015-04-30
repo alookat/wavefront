@@ -273,13 +273,12 @@ section ul {
 		#university-logos {
 			/*width: 100%;*/
 			background-color: #222a2d;
-			padding: 48pt 24pt;
+			padding: 48pt 32pt;
+
 		}
 
 			#university-logos img {
 				opacity: 0.75;
-				max-width: 100%;
-				margin: 0 auto;
 			}
 
 
@@ -392,6 +391,12 @@ section ul {
 	}
 }
 
+@media screen and (max-width: 706px) {
+	#university-logos {
+		display: none;
+	}
+}
+
 @media screen and (max-width: 500px) {
 	#top h1 {
 		font-size: 18pt;
@@ -404,16 +409,6 @@ section ul {
 
 	#university ul li {
 		font-size: 11pt;
-	}
-
-	#university-logos {
-		max-width: 20%;
-		padding: 48pt 24pt;
-	}
-
-	#uni-logo {
-		max-width: 200px;
-
 	}
 }
 
