@@ -8,6 +8,9 @@ To do:
 -	Clean up folder & file structure
 -	Accessibility
 
+-	New icons for swipebox.js
+-	Replace iPhone/iPad swipebox.js with iframe (or whatever is better for seamless playback)
+
 
 
 
