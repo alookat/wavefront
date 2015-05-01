@@ -58,8 +58,7 @@ textarea {
 	margin-bottom: 32pt;
 }
 
-.button {
-	/*width: 100%;*/
+/*.button {
 	border-radius: 5px;
 	background-color: #222a2d;
 	border: none;
@@ -71,12 +70,11 @@ textarea {
 
 	.button a {		
 		color: white;
-
 	}
 
 	.button:hover {
 		background-color: #6F797D;
-	}
+	}*/
 /*
 #map {
 	background: url(../img/symbol-white.png);
