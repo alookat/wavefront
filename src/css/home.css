@@ -13,7 +13,7 @@
 	}
 
 #hiw-preview {
-		max-width: 580px;
+		max-width: 540px;
 		width: 90%;
 		border-radius: 10px;
 		/*Better CSS borders: http://blog.teamtreehouse.com/css-tip-better-rounded-borders*/
@@ -199,17 +199,12 @@ section ul {
 #problem {
 	/*Bulleted areas multiple backgrounds*/
 	/*https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_multiple_backgrounds*/
+	background: url(../img/home/intro-img.png), url(../img/wave-bg-bottom.png);
+	background-repeat: no-repeat;
+	background-position: bottom 15% center, bottom center;
+	background-size: 1155px, 150%;
 	text-align: center;
 	margin: 0 auto;
-
-	background:
-		url(../img/home/hiw-preview-1.jpeg) no-repeat bottom left 0,
-		url(../img/home/hiw-preview-2.jpeg) no-repeat bottom left 18%,
-		url(../img/home/hiw-preview-3.jpeg) no-repeat bottom left 34%,
-		url(../img/home/hiw-preview-4.jpeg) no-repeat bottom left 45%,
-		url(../img/home/hiw-preview-5.jpeg) no-repeat bottom left 61%,
-		url(../img/wave-bg-bottom.png) no-repeat bottom center;
-	background-size: 18%, 16%, 11%, 12%, 16%, 150%;
 }
 
 	#problem img {
