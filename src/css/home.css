@@ -203,13 +203,13 @@ section ul {
 	margin: 0 auto;
 
 	background:
-		url(../img/home/hiw-preview-1.jpeg) no-repeat bottom 40% left -8%,
-		url(../img/home/hiw-preview-2.jpeg) no-repeat bottom -3% right -3%,
-		url(../img/home/hiw-preview-3.jpeg) no-repeat bottom 60% right 10%,
-		url(../img/home/hiw-preview-4.jpeg) no-repeat bottom 40% right 15%,
-		url(../img/home/hiw-preview-5.jpeg) no-repeat bottom 4% left 2%,
+		url(../img/home/hiw-preview-1.jpeg) no-repeat bottom left 0,
+		url(../img/home/hiw-preview-2.jpeg) no-repeat bottom left 18%,
+		url(../img/home/hiw-preview-3.jpeg) no-repeat bottom left 34%,
+		url(../img/home/hiw-preview-4.jpeg) no-repeat bottom left 45%,
+		url(../img/home/hiw-preview-5.jpeg) no-repeat bottom left 61%,
 		url(../img/wave-bg-bottom.png) no-repeat bottom center;
-	background-size: 25%, 20%, 8%, 12%, 16%, 150%;
+	background-size: 18%, 16%, 11%, 12%, 16%, 150%;
 }
 
 	#problem img {
