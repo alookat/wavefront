@@ -274,12 +274,11 @@ section ul {
 		#university-logos {
 			/*width: 100%;*/
 			background-color: #222a2d;
-			padding: 48pt 32pt;
-
+			padding: 48pt 36pt 0;
 		}
 
 			#university-logos img {
-				opacity: 0.75;
+				opacity: 0.65;
 			}
 
 
