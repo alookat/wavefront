@@ -12,12 +12,28 @@
 		border-radius: 5px;
 	}
 
+#hiw-preview {
+		max-width: 580px;
+		width: 90%;
+		border-radius: 10px;
+		/*Better CSS borders: http://blog.teamtreehouse.com/css-tip-better-rounded-borders*/
+		border: 5px solid #f4f6f7;
+}
+
 	/*The video preview container*/
 	.videobox { 
 		position: relative;
-		/*And a bit of space after the header, before the video/intro copy*/
-		margin: 60px 0 20px;
 	}
+
+		#video-preview-box {
+			/*And a bit of space after the header, before the video/intro copy*/
+			margin: 60px 0 20px;
+		}
+
+		#hiw-preview-box {
+			/*And a bit of space after the header, before the video/intro copy*/
+			margin-bottom: 60px;
+		}
 
 	/*Get rid of underline for link*/
 	.videobox a {
@@ -35,45 +51,14 @@
 		  z-index: 1;
 		  background: url(../img/home/video-button.png) no-repeat center center;
 		  background-size: 80px;
-		  opacity: 0.75;
+		  opacity: 0.8;
 		}
 
+		/*annoying bug*/
+		.videobox span:last-of-type {
+			/*top: 24%;*/
+		}
 
-
-
-iframe {
-	/*And a bit of space after the header, before the video/intro copy*/
-	/*margin: 60px 0 20px;
-	max-width: 480px;
-	max-height: 270px;*/
-}
-
-.embed-container {
-	margin: 0 auto;
-
-	position: relative;
-	/*padding-bottom: 56.25%;*/
-	/*height: 0;*/
-	overflow: hidden;
-	max-width: 100%;
-}
-
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-	/*position: absolute;
-	top: 0;
-	left: 0;*/
-	width: 100%;
-	height: 100%;
-	margin: 60px 0 20px;
-	max-width: 480px;
-	max-height: 270px;
-
-	-webkit-box-shadow: 0px 0px 9px 3px rgba(0,0,0,0.15);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-	-moz-box-shadow:    0px 0px 9px 3px rgba(0,0,0,0.15);  /* Firefox 3.5 - 3.6 */
-	box-shadow:         0px 0px 9px 3px rgba(0,0,0,0.15);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-}
 
 #top {
 	/*Background image*/
@@ -214,12 +199,17 @@ section ul {
 #problem {
 	/*Bulleted areas multiple backgrounds*/
 	/*https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_multiple_backgrounds*/
-	background: url(../img/wave-bg-bottom.png);
-	background-repeat: no-repeat;
-	background-position: bottom center, bottom center;
-	background-size: 140%;
 	text-align: center;
 	margin: 0 auto;
+
+	background:
+		url(../img/home/hiw-preview-1.jpeg) no-repeat bottom 40% left -8%,
+		url(../img/home/hiw-preview-2.jpeg) no-repeat bottom -3% right -3%,
+		url(../img/home/hiw-preview-3.jpeg) no-repeat bottom 60% right 10%,
+		url(../img/home/hiw-preview-4.jpeg) no-repeat bottom 40% right 15%,
+		url(../img/home/hiw-preview-5.jpeg) no-repeat bottom 4% left 2%,
+		url(../img/wave-bg-bottom.png) no-repeat bottom center;
+	background-size: 25%, 20%, 8%, 12%, 16%, 150%;
 }
 
 	#problem img {
