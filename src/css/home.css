@@ -41,7 +41,8 @@
 	}
 
 		/*The play button*/
-		.videobox span {
+		#video-preview-box span,
+		#hiw-preview-box span {
 		  display: block;
 		  position: absolute;
 		  top: 0;
@@ -54,9 +55,17 @@
 		  opacity: 0.8;
 		}
 
-		/*annoying bug*/
-		.videobox span:last-of-type {
-			/*top: 24%;*/
+			#video-preview-box span:hover,
+			#hiw-preview-box span:hover {
+				opacity: 1;
+				background-size: 84px;
+			}
+
+		/*Annoying bug fix*/
+		#hiw-preview-box span {
+			top: 24%;
+			/*not a bug fix, just a nit-picky design thing*/
+			opacity: 0.9;
 		}
 
 
@@ -258,13 +267,17 @@ section ul {
 */
 		#university-logos {
 			/*width: 100%;*/
-			background-color: #222a2d;
-			padding: 48pt 36pt 0;
+			/*background-color: #222a2d;*/
+			padding: 24pt 36pt 0;
 		}
 
 			#university-logos img {
 				opacity: 0.65;
 			}
+
+				#university-logos img:hover {
+				opacity: 0.8;
+				}
 
 
 #byline {
@@ -341,7 +354,7 @@ section ul {
 
 
 	#problem {
-		background-size: 190%;
+		background-size: 150%, 190%;
 	}
 
 	#university ul {
@@ -399,16 +412,16 @@ section ul {
 		width: 90%;
 	}
 
-	.embed-container iframe {
-		width: 80%;
-	}
-
 	#university ul {
 		width: 100%;
 	}
 
 	#university ul li {
 		font-size: 11pt;
+	}
+
+	#hiw-preview-box span {
+			top: 34%;
 	}
 }
 
