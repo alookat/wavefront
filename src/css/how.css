@@ -193,9 +193,15 @@ aside {
 	}
 }
 
+@media screen and (max-width: 760px) {
+	#problem {
+		background-size: 150%, 190%;
+	}
+}
+
 @media screen and (max-width: 700px) {
 	#verify {
-		background:	none;
+		/*background:	none;*/
 	}
 
 	#verify p {
@@ -205,7 +211,6 @@ aside {
 
 	#how-flow {
 		background: none;
-		border-radius: 5px;
 		margin: 12pt auto;
 		padding: 0 0;
 		border: none;

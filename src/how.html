@@ -8,6 +8,8 @@
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/how.css">
+
+	<link rel="stylesheet" type="text/css" href="css/swipebox.css">
 	
 	<!-- turns on media queries -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -68,7 +70,7 @@
 			<h2>Wavefront solves the problem</h2>
 			<p>of uniquely identifying a person securely in a way that is very hard to fool. Wavefront works specifically to incorporate liveness​ and captures multi-modal biometric information in one pass. All this in close to real time. Simply, quickly, with low user effort.</p>
 			<div id="hiw-preview-box" class="videobox">
-				<a class="swipebox-video" rel="vimeo gallery-1" href="http://vimeo.com/126333414">
+				<a class="swipebox-video" rel="vimeo gallery-1" href="http://vimeo.com/124510802">
 			    	<img id="hiw-preview" src="img/home/hiw-preview.jpg" alt="Wavefront: How It Works" />
 			    	<span></span>
 			    </a>
@@ -205,9 +207,24 @@
 			<h6>Copyright &copy; 2015 by Wavefront Biometric Technologies Pty Ltd. All Rights Reserved.</h6>
 		</div>
 	</footer>
+
+	<script src="js/respond.js"></script>
+	<script src="js/selectnav.min.js"></script>
+	<script>selectnav('nav'); </script>
 	
+	<!-- swipebox -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<!-- autoplay swipebox fork -->
+	<script src="js/jquery.swipebox.min.js"></script>
+	<script>
+		$(function () {
+		    /* Video */
+		    $('.swipebox-video').swipebox( {
+		    	videoMaxWidth : 1140,
+		    	loopAtEnd : true
+	    	} );
+		});
+	</script>
+
 </body>
-<script src="js/respond.js"></script>
-<script src="js/selectnav.min.js"></script>
-<script>selectnav('nav'); </script>
 </html>
